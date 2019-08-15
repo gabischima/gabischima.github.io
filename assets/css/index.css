@@ -27,11 +27,25 @@ body {
 
 .gsm-nav-list__item a {
   color: #6F8796;
+  display: block;
+}
+
+.gsm-nav-list__item a svg {
+  display: block;
+  margin: 0 auto 4px;
+}
+
+.gsm-nav-list__item a svg > * {
+  fill: #6F8796;
 }
 
 .gsm-nav-list__item._active a {
   color: #0B1D29;
   font-weight: bold;
+}
+
+.gsm-nav-list__item._active a svg > * {
+  fill: #0B1D29;
 }
 
 .gsm-content {
