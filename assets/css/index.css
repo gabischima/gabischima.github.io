@@ -1,8 +1,33 @@
+/*
+** GENERAL
+*/
+
 body {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 12px;
   color: #0B1D29;
 }
+
+.gsm-content {
+  padding: 24px 16px 0;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: 2px solid #EBF1F5;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+
+h3 {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* HEADER */
 
 .gsm-header {
   position: fixed;
@@ -48,42 +73,58 @@ body {
   fill: #0B1D29;
 }
 
-.gsm-content {
-  padding: 24px 16px 0;
-}
-
-h1 {
-  font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: bold;
-  font-size: 24px;
-  border-bottom: 2px solid #EBF1F5;
-  padding-bottom: 4px;
-  margin-bottom: 4px;
-}
-
-h3 {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: bold;
-  font-size: 16px;
-}
-
-p {
-  line-height: 24px;
-}
-
-p:not(:first-child) {
-  padding-top: 8px;
-}
-
-.gsm-portrait {
-  text-align: center;
-}
-
-.gsm-portrait__img {
-  max-width: 260px;
-}
+/* FOOTER */
 
 .gsm-footer {
   text-align: center;
   padding: 48px 0 100px;
 }
+
+
+/*
+** ABOUT
+*/
+
+.gsm-about__img {
+  text-align: center;
+}
+
+.gsm-about__img img {
+  max-width: 260px;
+}
+
+.gsm-about__description p {
+  line-height: 24px;
+}
+
+.gsm-about__description p:not(:first-child) {
+  padding-top: 8px;
+}
+
+
+/*
+** PORTFOLIO
+*/
+
+.gsm-portfolio__item {
+  padding-top: 24px;
+}
+
+.gsm-portfolio__item__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.gsm-portfolio__item__description {
+  margin-bottom: 12px;
+}
+
+/*
+** CURRICULUM
+*/
+
+
+/*
+** CONTACT
+*/
