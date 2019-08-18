@@ -142,16 +142,18 @@ b {
 .gsm-portfolio p > a,
 .gsm-portfolio p > a:visited {
   color: #0B1D29;
-  transition: background-color 0.2s ease-in-out,
+  transition: background-position 0.2s ease-in-out,
               color 0.2s ease-in-out;
   border-bottom: 2px solid #0B1D29;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #0B1D29 50%, transparent 50%);
   padding: 2px 2px 0;
 }
 
 .gsm-portfolio p > a:hover,
 .gsm-portfolio p > a:focus {
-  background-color: #0B1D29;
   color: #FFFFFF;
+  background-position: 0 100%;
 }
 
 /*
@@ -186,16 +188,18 @@ b {
 .gsm-curriculum li > a,
 .gsm-curriculum li > a:visited {
   color: #0B1D29;
-  transition: background-color 0.2s ease-in-out,
+  transition: background-position 0.2s ease-in-out,
               color 0.2s ease-in-out;
   border-bottom: 1px solid #0B1D29;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #0B1D29 50%, transparent 50%);
   padding: 2px 2px 0;
 }
 
 .gsm-curriculum li > a:hover,
 .gsm-curriculum li > a:focus {
-  background-color: #0B1D29;
   color: #FFFFFF;
+  background-position: 0 100%;
 }
 
 
@@ -216,4 +220,13 @@ b {
 
 .gsm-contact__social a + a {
   margin-left: 12px;
+}
+
+.gsm-contact__social a svg > path {
+  fill: #6F8796;
+  transition: fill 0.2s ease-in-out;
+}
+
+.gsm-contact__social a:hover svg > path {
+  fill: #0B1D29;
 }
