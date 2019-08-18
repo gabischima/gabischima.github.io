@@ -32,6 +32,8 @@ plugins:
 collections:
   social_midias:
     output: false
+  curriculum:
+    output: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
