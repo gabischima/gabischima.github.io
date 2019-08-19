@@ -8,7 +8,7 @@ section: contact
 <div class="gsm-contact">
   <div class="gsm-contact__social">
     <div class="gsm-contact__title">
-      Social
+      Redes sociais
     </div>
     <div>
       {% for midia in site.social_midias %}
