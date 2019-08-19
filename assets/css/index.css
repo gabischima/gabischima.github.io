@@ -382,3 +382,78 @@ b {
   border: 2px solid #EBF1F5;
   box-shadow: 0 2px 6px 1px rgba(5, 16, 23, 0.2);
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .gsm-content {
+    padding-top: 48px;
+  }
+
+  .gsm-header {
+    position: relative;
+    width: auto;
+    background-color: transparent;
+    box-shadow: none;
+    padding-top: 36px;
+  }
+
+  .gsm-nav-list {
+    display: block;
+    text-align: right;
+  }
+
+  .gsm-nav-list__item {
+    display: inline-block;
+    padding: 0 16px;
+  }
+
+  .gsm-nav-list__item a svg {
+    height: 0;
+    width: 0;
+  }
+
+  .gsm-about__img {
+    float: left;
+    padding-top: 24px
+  }
+
+  .gsm-about__description {
+    column-count: 2;
+    padding-top: 32px;
+  }
+
+  .gsm-portfolio,
+  .gsm-curriculum,
+  .gsm-contact {
+    padding-top: 8px;
+  }
+
+  .gsm-curriculum {
+    column-count: 3;
+    column-gap: 16px;
+  }
+
+  .gsm-curriculum__item {
+    break-inside: avoid-column;
+    /* firefox */
+    page-break-inside: avoid;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .gsm-about__img img {
+    max-width: 350px;
+  }
+}
