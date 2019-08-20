@@ -408,6 +408,7 @@ b {
   .gsm-nav-list {
     display: block;
     text-align: right;
+    font-size: 14px;
   }
 
   .gsm-nav-list__item {
