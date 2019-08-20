@@ -391,6 +391,7 @@ b {
 
   h1 {
     font-size: 40px;
+    border-bottom-width: 4px;
   }
 
   .gsm-content {
