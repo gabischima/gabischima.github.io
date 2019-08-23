@@ -112,8 +112,8 @@ b {
   line-height: 24px;
 }
 
-.gsm-about__description p:not(:first-child) {
-  padding-top: 8px;
+.gsm-about__description p:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 
@@ -179,8 +179,9 @@ b {
   margin-left: 8px;
 }
 
-.gsm-curriculum__item__content li {
+.gsm-curriculum__item__content > li {
   padding: 8px;
+  line-height: 1.6;
 }
 
 .gsm-curriculum__item__content li > ul > li {
@@ -402,6 +403,10 @@ b {
     border-bottom-width: 4px;
   }
 
+  h3 {
+    font-size: 20px;
+  }
+
   .gsm-content {
     padding-top: 48px;
   }
@@ -432,7 +437,7 @@ b {
 
   .gsm-about__img {
     float: left;
-    padding-top: 24px
+    padding-top: 24px;
   }
 
   .gsm-about__description {
@@ -444,6 +449,10 @@ b {
   .gsm-curriculum,
   .gsm-contact {
     padding-top: 8px;
+  }
+
+  .gsm-portfolio__item__description {
+    max-width: 400px;
   }
 
   .gsm-curriculum {
@@ -464,6 +473,7 @@ b {
   }
 
   .gsm-about__img img {
-    max-width: 350px;
+    max-width: 340px;
+    margin-left: -10px;
   }
 }
