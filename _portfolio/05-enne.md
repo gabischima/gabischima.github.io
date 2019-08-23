@@ -1,6 +1,10 @@
 ---
-title: Enne
-description: '<a href="http://instagram.com/ennecoisa" target="_blank" rel="noopener noreferrer">Projeto</a> de desenho sob a pele.'
+pt:
+  title: Enne
+  description: '<a href="http://instagram.com/ennecoisa" target="_blank" rel="noopener noreferrer">Projeto</a> de desenho sobre a pele.'
+en:
+  title: Enne
+  description: '<a href="http://instagram.com/ennecoisa" target="_blank" rel="noopener noreferrer">Personal project</a> of drawings on the skin'
 gallery:
   direction: portrait
   folder: enne

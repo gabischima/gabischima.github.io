@@ -1,18 +1,14 @@
 ---
 layout: default
-title: Currículo
-
-section: curriculum
 ---
-
 <ul class="gsm-curriculum">
     {% for session in site.curriculum %}
     <li class="gsm-curriculum__item">
       <p class="gsm-curriculum__item__title">
-        {{ session.title }}
+        {{ session[page.lang].title }}
       </p>
       <ul class="gsm-curriculum__item__content">
-        {% for item in session.items %}
+        {% for item in session[page.lang].items %}
         <li>
           {{ item.title }}
           {% if item.subsections %}

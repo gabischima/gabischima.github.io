@@ -1,7 +1,8 @@
+{% assign language = page.lang | default: site.lang | default: 'pt' %}
 <div class="gsm-header">
   <ul class="gsm-nav-list">
     <li class="gsm-nav-list__item{% if page.section == 'about' %} _active{% endif %}">
-      <a href="/">
+      <a href="{{ site.menu[language].about.link | prepend: site.url }}">
         <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="about" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Group" transform="translate(3.500000, 1.000000)">
@@ -11,12 +12,12 @@
           </g>
         </svg>
         <span>
-          sobre
+          {{ site.menu[language].about.title }}
         </span>
       </a>
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'portfolio' %} _active{% endif %}">
-      <a href="/portfolio">
+      <a href="{{ site.menu[language].portfolio.link | prepend: site.url }}">
         <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Group" transform="translate(0.000000, 1.500000)">
@@ -26,12 +27,12 @@
           </g>
         </svg>
         <span>
-          portfolio
+          {{ site.menu[language].portfolio.title }}
         </span>
       </a>
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'curriculum' %} _active{% endif %}">
-      <a href="/curriculum">
+      <a href="{{ site.menu[language].curriculum.link | prepend: site.url }}">
         <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="cv" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Group" transform="translate(1.000000, 1.000000)">
@@ -41,12 +42,12 @@
           </g>
         </svg>
         <span>
-          currículo
+          {{ site.menu[language].curriculum.title }}
         </span>
       </a>
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'contact' %} _active{% endif %}">
-      <a href="/contact">
+      <a href="{{ site.menu[language].contact.link | prepend: site.url }}">
         <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Group" transform="translate(0.000000, 4.000000)">
@@ -56,7 +57,7 @@
           </g>
         </svg>
         <span>
-          contato
+          {{ site.menu[language].contact.title }}
         </span>
       </a>
     </li>

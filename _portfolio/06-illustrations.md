@@ -1,6 +1,10 @@
 ---
-title: Ilustrações
-description: Desenhos em geral.
+pt:
+  title: Ilustrações
+  description: Desenhos em geral.
+en:
+  title: Illustrations
+  description: Personal drawings.
 gallery:
   direction: portrait
   folder: illustrations

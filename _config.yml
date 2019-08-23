@@ -25,6 +25,34 @@ github_username:  gabischima
 sass:
   style: compressed
 
+menu:
+  en:
+    about:
+      title: about
+      link: /en/
+    portfolio:
+      title: portfolio
+      link: /en/portfolio
+    curriculum:
+      title: curriculum
+      link: /en/curriculum
+    contact:
+      title: contact
+      link: /en/contact
+  pt:
+    about:
+      title: sobre
+      link: /pt/
+    portfolio:
+      title: portfolio
+      link: /pt/portfolio
+    curriculum:
+      title: currículo
+      link: /pt/curriculo
+    contact:
+      title: contato
+      link: /pt/contato
+
 # Build settings
 markdown: kramdown
 plugins:

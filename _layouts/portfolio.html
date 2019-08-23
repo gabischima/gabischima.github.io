@@ -1,23 +1,19 @@
 ---
 layout: default
-title: Portfolio
-
-section: portfolio
 ---
-
 <ul class="gsm-portfolio">
   {% for item in site.portfolio %}
   <li class="gsm-portfolio__item">
     <p class="gsm-portfolio__item__title">
-      {{ item.title }}
+      {{ item[page.lang].title }}
     </p>
-    {% if item.subtitle %}
+    {% if item[page.lang].subtitle %}
     <p class="gsm-portfolio__item__subtitle">
-      {{ item.subtitle }}
+      {{ item[page.lang].subtitle }}
     </p>
     {% endif %}
     <p class="gsm-portfolio__item__description">
-      {{ item.description }}
+      {{ item[page.lang].description }}
     </p>
     {% if item.gallery %}
     <div class="gsm-gallery">
@@ -35,7 +31,7 @@ section: portfolio
   {% endfor %}
 </ul>
 
-<div class="gsm-modal">
+<!-- <div class="gsm-modal">
   <div class="gsm-modal__close">
     {%- include close.svg -%}
   </div>
@@ -44,7 +40,7 @@ section: portfolio
       <img id="modalImg">
     </div>
   </div>
-</div>
+</div> -->
 
-<script src="{{ "/assets/js/external/forEach.js " | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/modal.js " | prepend: site.baseurl }}"></script>
+<!-- <script src="{{ "/assets/js/external/forEach.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/modal.js " | prepend: site.baseurl }}"></script> -->

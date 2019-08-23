@@ -1,7 +1,12 @@
 ---
-title: TattooAR
-subtitle: '<b>Atuação:</b> ilustrações, design e desenvolvimento (Swift/Objective-C).'
-description: 'Aplicativo iOS de Realidade Aumentada para tatuagens removíveis.'
+pt:
+  title: TattooAR
+  subtitle: '<b>Atuação:</b> ilustrações, design e desenvolvimento (Swift/Objective-C).'
+  description: 'Aplicativo iOS de Realidade Aumentada para tatuagens removíveis.'
+en:
+  title: TattooAR
+  subtitle: '<b>Acted:</b> illustrations, design and development (Swift/Objective-C).'
+  description: 'iOS Augmented Reality application for temporary tattoos.'
 gallery:
   direction: portrait
   folder: tattooar
