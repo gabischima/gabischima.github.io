@@ -32,6 +32,23 @@ b {
   font-weight: bold;
 }
 
+.gsm-link,
+.gsm-link:visited {
+  color: #0B1D29;
+  transition: background-position 0.2s ease-in-out,
+              color 0.2s ease-in-out;
+  border-bottom: 1px solid #0B1D29;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #0B1D29 50%, transparent 50%);
+  padding: 2px 2px 0;
+}
+
+.gsm-link:hover,
+.gsm-link:focus {
+  color: #FFFFFF;
+  background-position: 0 100%;
+}
+
 /* HEADER */
 
 .gsm-header {
