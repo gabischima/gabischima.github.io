@@ -7,6 +7,7 @@
   font-size: 10px;
   font-weight: bold;
   margin-top: 24px;
+  color: #314C5E;
 }
 
 .gsm-mode-switcher input {
@@ -20,7 +21,7 @@
   width: 60px;
   height: 25px;
   right: 0;
-  border: 1px solid #0B1D29;
+  border: 1px solid #314C5E;
   background-color: #B6C8D4;
 }
 
@@ -29,7 +30,7 @@
   position: absolute;
   height: 25px;
   width: 31px;
-  border: 1px solid #0B1D29;
+  border: 1px solid #314C5E;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +54,7 @@
   top: -5px;
   width: 2px;
   height: 26px;
-  background-color: #0B1D29;
+  background-color: #314C5E;
   border-radius: 1px;
   transform: rotate(25deg) skewX(25deg);
 }
@@ -61,6 +62,7 @@
 .gsm-mode-switcher__right {
   right: 0;
   background-color: #EBF1F5;
+  color: #0B1D29;
 }
 
 input:checked + .gsm-mode-switcher__left {
@@ -68,6 +70,7 @@ input:checked + .gsm-mode-switcher__left {
   top: 0;
   height: 25px;
   background-color: #EBF1F5;
+  color: #0B1D29;
 }
 
 input:checked + .gsm-mode-switcher__left::before {
@@ -80,6 +83,7 @@ input:checked + .gsm-mode-switcher__left + .gsm-mode-switcher__right {
   border-radius: 1px;
   height: 24px;
   background-color: #FFFFFF;
+  color: #314C5E;
 }
 
 input:checked + .gsm-mode-switcher__left + .gsm-mode-switcher__right::before {
@@ -89,7 +93,7 @@ input:checked + .gsm-mode-switcher__left + .gsm-mode-switcher__right::before {
   width: 2px;
   height: 26px;
   top: -5px;
-  background-color: #0B1D29;
+  background-color: #314C5E;
   border-radius: 1px;
   transform: rotate(-25deg) skewX(-25deg);
 }
