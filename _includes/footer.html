@@ -1,10 +1,11 @@
 {% assign selectedLanguage = page.lang | default: site.lang | default: 'pt' %}
 <div class="gsm-footer">
-  <span class="gsm-language-select">
+  <p class="gsm-language-select">
     {% if selectedLanguage == 'pt' %}
       change to <a class="gsm-link" href="{{ site.menu.en[page.section].link | prepend: site.url  }}">english version</a>
     {% else %}
       mudar para <a class="gsm-link" href="{{ site.menu.pt[page.section].link | prepend: site.url  }}">português</a>
     {% endif %}
-  </span>
+  </p>
+  {% include mode-switcher.html %}
 </div>
