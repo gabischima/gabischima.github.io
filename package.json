@@ -1,0 +1,19 @@
+{
+  "name": "gabischima",
+  "version": "0.1.0",
+  "description": "my portfolio / website",
+  "scripts": {
+    "serve": "bundle exec jekyll serve --host=0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabischima/gabischima.git"
+  },
+  "author": "Gabriela Schirmer Mauricio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabischima/gabischima/issues"
+  },
+  "homepage": "https://github.com/gabischima/gabischima#readme"
+}
