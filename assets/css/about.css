@@ -1,0 +1,43 @@
+/*
+** ABOUT
+*/
+
+.gsm-about__img {
+  text-align: center;
+}
+
+.gsm-about__img img {
+  max-width: 260px;
+}
+
+.gsm-about__description p {
+  line-height: 24px;
+}
+
+.gsm-about__description p:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+
+/*
+** DESKTOP
+*/
+
+@media screen and (min-width: 768px) {
+  .gsm-about__img {
+    float: left;
+    padding-top: 24px;
+  }
+
+  .gsm-about__description {
+    column-count: 2;
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .gsm-about__img img {
+    max-width: 340px;
+    margin-left: -10px;
+  }
+}

@@ -1,0 +1,55 @@
+
+/*
+** PORTFOLIO
+*/
+
+.gsm-portfolio__item {
+  padding-top: 24px;
+}
+
+.gsm-portfolio__item__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.gsm-portfolio__item__subtitle {
+  margin-bottom: 4px;
+}
+
+.gsm-portfolio__item__description {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.gsm-portfolio p > a,
+.gsm-portfolio p > a:visited {
+  color: #0B1D29;
+  transition: background-position 0.2s ease-in-out,
+              color 0.2s ease-in-out;
+  border-bottom: 2px solid #0B1D29;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #0B1D29 50%, transparent 50%);
+  padding: 2px 2px 0;
+}
+
+.gsm-portfolio p > a:hover,
+.gsm-portfolio p > a:focus {
+  color: #FFFFFF;
+  background-position: 0 100%;
+}
+
+/*
+** DESKTOP
+*/
+
+@media screen and (min-width: 768px) {
+  .gsm-portfolio {
+    padding-top: 8px;
+  }
+
+  .gsm-portfolio__item__description {
+    max-width: 400px;
+  }
+}
