@@ -55,8 +55,10 @@ menu:
 
 # Build settings
 markdown: kramdown
+
 plugins:
   - jekyll-feed
+
 collections:
   social_midias:
     output: false
