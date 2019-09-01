@@ -19,9 +19,9 @@ layout: default
     <div class="gsm-gallery">
       <ul class="gsm-gallery__list _{{ item.gallery.direction }}">
       {% for url in item.gallery.images %}
-      {% capture path %}/assets/images/portfolio/{{item.gallery.folder}}/{{ url }}{% endcapture %}
+      {% capture path %}/assets/images/portfolio/{{ url }}{% endcapture %}
         <li class="gsm-gallery__list__item">
-          <img src="{{ path | relative_url }}" id="{{item.gallery.folder}}{% if forloop.index0 < 10 %}0{% endif %}{{ forloop.index0 }}" gsm-modal-trigger>
+          <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}">
         </li>
       {% endfor %}
       </ul>
@@ -30,3 +30,5 @@ layout: default
   </li>
   {% endfor %}
 </ul>
+
+<script src="{{ "/assets/js/external/gsm-modal.min.js" | relative_url }}"></script>

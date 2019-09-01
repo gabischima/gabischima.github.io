@@ -7,15 +7,24 @@ en:
   description: Personal drawings.
 gallery:
   direction: portrait
-  folder: illustrations
   images:
-  - '00.jpg'
-  - '01.jpg'
-  - '02.jpg'
-  - '03.jpg'
-  - '04.jpg'
-  - '05.jpg'
-  - '06.jpg'
-  - '07.jpg'
-  - '08.jpg'
+  - 'illustrations_00.jpg'
+  - 'illustrations_01.jpg'
+  - 'illustrations_02.jpg'
+  - 'illustrations_03.jpg'
+  - 'illustrations_04.jpg'
+  - 'illustrations_05.jpg'
+  - 'illustrations_06.jpg'
+  - 'illustrations_07.jpg'
+  - 'illustrations_08.jpg'
+  thumbnails:
+  - 'illustrations_00_tn.jpg'
+  - 'illustrations_01_tn.jpg'
+  - 'illustrations_02_tn.jpg'
+  - 'illustrations_03_tn.jpg'
+  - 'illustrations_04_tn.jpg'
+  - 'illustrations_05_tn.jpg'
+  - 'illustrations_06_tn.jpg'
+  - 'illustrations_07_tn.jpg'
+  - 'illustrations_08_tn.jpg'
 ---

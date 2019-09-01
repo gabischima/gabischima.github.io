@@ -9,14 +9,22 @@ en:
   description: 'iOS Augmented Reality application for my business card and tattoo.'
 gallery:
   direction: portrait
-  folder: ennecoisa
   images:
-  - '00.png'
-  - '01.png'
-  - '02.png'
-  - '03.png'
-  - '04.png'
-  - '05.jpg'
-  - '06.jpg'
-  - '07.jpg'
+  - 'ennecoisa_00.png'
+  - 'ennecoisa_01.png'
+  - 'ennecoisa_02.png'
+  - 'ennecoisa_03.png'
+  - 'ennecoisa_04.png'
+  - 'ennecoisa_05.jpg'
+  - 'ennecoisa_06.jpg'
+  - 'ennecoisa_07.jpg'
+  thumbnails:
+  - 'ennecoisa_00_tn.png'
+  - 'ennecoisa_01_tn.png'
+  - 'ennecoisa_02_tn.png'
+  - 'ennecoisa_03_tn.png'
+  - 'ennecoisa_04_tn.png'
+  - 'ennecoisa_05_tn.jpg'
+  - 'ennecoisa_06_tn.jpg'
+  - 'ennecoisa_07_tn.jpg'
 ---

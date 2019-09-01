@@ -9,9 +9,12 @@ en:
   description: 'Photography <a href="https://brasil.mullenlowe.com/our-work/hemopics-2/" target="_blank" rel="noopener noreferrer">app</a> made for Hemorio (Instituto Estadual de Hematologia do Rio de Janeiro) campaign, with informative filter containing the percentage amount of the blood bank.'
 gallery:
   direction: portrait
-  folder: hemopics
   images:
-  - '00.png'
-  - '01.png'
-  - '02.png'
+  - 'hemopics_00.png'
+  - 'hemopics_01.png'
+  - 'hemopics_02.png'
+  thumbnails:
+  - 'hemopics_00_tn.png'
+  - 'hemopics_01_tn.png'
+  - 'hemopics_02_tn.png'
 ---

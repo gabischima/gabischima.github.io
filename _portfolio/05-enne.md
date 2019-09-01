@@ -7,15 +7,24 @@ en:
   description: '<a href="http://instagram.com/ennecoisa" target="_blank" rel="noopener noreferrer">Personal project</a> of drawings on the skin'
 gallery:
   direction: portrait
-  folder: enne
   images:
-  - '00.jpg'
-  - '01.jpg'
-  - '02.jpg'
-  - '03.jpg'
-  - '04.jpg'
-  - '05.jpg'
-  - '06.jpg'
-  - '07.jpg'
-  - '08.jpg'
+  - 'enne_00.jpg'
+  - 'enne_01.jpg'
+  - 'enne_02.jpg'
+  - 'enne_03.jpg'
+  - 'enne_04.jpg'
+  - 'enne_05.jpg'
+  - 'enne_06.jpg'
+  - 'enne_07.jpg'
+  - 'enne_08.jpg'
+  thumbnails:
+  - 'enne_00_tn.jpg'
+  - 'enne_01_tn.jpg'
+  - 'enne_02_tn.jpg'
+  - 'enne_03_tn.jpg'
+  - 'enne_04_tn.jpg'
+  - 'enne_05_tn.jpg'
+  - 'enne_06_tn.jpg'
+  - 'enne_07_tn.jpg'
+  - 'enne_08_tn.jpg'
 ---

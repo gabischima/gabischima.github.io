@@ -9,10 +9,14 @@ en:
   description: '<a href="https://www.zeedog.com.br/zeenow" target="_blank" rel="noopener noreferrer">Zee.dog&#39;s</a> <a href="https://itunes.apple.com/br/app/zee-now-pet-shop-online-24h/id1353421806?ls=1&mt=8" target="_blank" rel="noopener noreferrer">app</a> for 24h free delivery of pet products.'
 gallery:
   direction: portrait
-  folder: zee_now
   images:
-  - '00.PNG'
-  - '01.PNG'
-  - '02.PNG'
-  - '03.PNG'
+  - 'zeenow_00.PNG'
+  - 'zeenow_01.PNG'
+  - 'zeenow_02.PNG'
+  - 'zeenow_03.PNG'
+  thumbnails:
+  - 'zeenow_00_tn.PNG'
+  - 'zeenow_01_tn.PNG'
+  - 'zeenow_02_tn.PNG'
+  - 'zeenow_03_tn.PNG'
 ---
