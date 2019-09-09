@@ -21,7 +21,7 @@ layout: default
       {% for image in item.gallery.images %}
       {% capture path %}/assets/images/portfolio/{{ image }}{% endcapture %}
         <li class="gsm-gallery__list__item">
-          <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}">
+          <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}" alt="{{ item[page.lang].title }} {{ forloop.index }}">
         </li>
       {% endfor %}
       </ul>
