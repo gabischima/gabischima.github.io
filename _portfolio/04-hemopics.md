@@ -10,11 +10,7 @@ en:
 gallery:
   direction: portrait
   images:
-  - 'hemopics_00.png'
-  - 'hemopics_01.png'
-  - 'hemopics_02.png'
-  thumbnails:
-  - 'hemopics_00_tn.png'
-  - 'hemopics_01_tn.png'
-  - 'hemopics_02_tn.png'
+  - 'hemopics_00.PNG'
+  - 'hemopics_01.PNG'
+  - 'hemopics_02.PNG'
 ---

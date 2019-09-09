@@ -14,9 +14,4 @@ gallery:
   - 'zeenow_01.PNG'
   - 'zeenow_02.PNG'
   - 'zeenow_03.PNG'
-  thumbnails:
-  - 'zeenow_00_tn.PNG'
-  - 'zeenow_01_tn.PNG'
-  - 'zeenow_02_tn.PNG'
-  - 'zeenow_03_tn.PNG'
 ---
