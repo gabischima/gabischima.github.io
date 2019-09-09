@@ -8,7 +8,7 @@ layout: default
     </div>
     <div>
       {% for midia in site.social_midias %}
-      <a href="{{midia.url}}" title="{{midia.title}}" target="_blank" rel="noopener noreferrer">
+      <a href="{{midia.siteUrl}}" title="{{midia.title}}" target="_blank" rel="noopener noreferrer">
         {%- include social-midias/{{midia.title}}.svg -%}
       </a>
       {% endfor %}

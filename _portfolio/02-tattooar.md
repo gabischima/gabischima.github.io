@@ -5,7 +5,7 @@ pt:
   description: 'Aplicativo iOS de Realidade Aumentada para tatuagens removíveis.'
 en:
   title: TattooAR
-  subtitle: '<b>Acted:</b> illustrations, design and development (Swift/Objective-C).'
+  subtitle: '<b>Acted as:</b> illustrator, designer and developer (Swift/Objective-C).'
   description: 'iOS Augmented Reality application for temporary tattoos.'
 gallery:
   direction: portrait

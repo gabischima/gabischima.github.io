@@ -20,12 +20,12 @@
 }
 
 .gsm-contact__social a svg > path {
-  fill: #6F8796;
+  fill: var(--social-midia--fill);
   transition: fill 0.2s ease-in-out;
 }
 
 .gsm-contact__social a:hover svg > path {
-  fill: #0B1D29;
+  fill: var(--social-midia--hover--fill);
 }
 
 /*

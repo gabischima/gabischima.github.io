@@ -7,7 +7,8 @@
 body {
   font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 12px;
-  color: #0B1D29;
+  color: var(--body--color);
+  background-color: var(--body--bg-color);
   -webkit-text-size-adjust: none;
 }
 
@@ -19,7 +20,7 @@ h1 {
   font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   font-size: 24px;
-  border-bottom: 2px solid #EBF1F5;
+  border-bottom: 2px solid var(--h1--border-color);
   padding-bottom: 4px;
   margin-bottom: 4px;
 }
@@ -36,18 +37,18 @@ b {
 
 .gsm-link,
 .gsm-link:visited {
-  color: #0B1D29;
+  color: var(--link--color);
   transition: background-position 0.2s ease-in-out,
               color 0.2s ease-in-out;
-  border-bottom: 1px solid #0B1D29;
+  border-bottom: 1px solid var(--link--color);
   background-size: 100% 200%;
-  background-image: linear-gradient(to top, #0B1D29 50%, transparent 50%);
+  background-image: linear-gradient(to top, var(--link--color) 50%, transparent 50%);
   padding: 2px 2px 0;
 }
 
 .gsm-link:hover,
 .gsm-link:focus {
-  color: #FFFFFF;
+  color: var(--link--hover--color);
   background-position: 0 100%;
 }
 
@@ -57,11 +58,15 @@ b {
   position: fixed;
   bottom: 0;
   width: 100vw;
-  background-color: #FFFFFF;
+  background-color: var(--body--bg-color);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   box-shadow: 0 10px 30px 20px rgba(5, 16, 23, 0.16);
+  /*
+  box-shadow: 0 8px 16px 8px rgba(5,16,23,0.16);
+  */
   z-index: 1;
+  border-top: var(--header--border--top);
 }
 
 .gsm-nav-list {
@@ -76,7 +81,7 @@ b {
 }
 
 .gsm-nav-list__item a {
-  color: #6F8796;
+  color: var(--nav-list--color);
   display: block;
 }
 
@@ -86,25 +91,25 @@ b {
 }
 
 .gsm-nav-list__item a svg * {
-  fill: #6F8796;
+  fill: var(--nav-list--svg--first--color);
 }
 
 .gsm-nav-list__item a svg path:last-child {
-  fill: #B6C8D4;
+  fill: var(--nav-list--svg--second--color);
 }
 
 
 .gsm-nav-list__item._active a {
-  color: #0B1D29;
+  color: var(--nav-list--active--color);
   font-weight: bold;
 }
 
 .gsm-nav-list__item._active a svg * {
-  fill: #0B1D29;
+  fill: var(--nav-list--svg--first--active--color);
 }
 
 .gsm-nav-list__item._active a svg path:last-child {
-  fill: #6F8796;
+  fill: var(--nav-list--svg--second--active--color);
 }
 
 /* FOOTER */

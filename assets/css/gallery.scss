@@ -22,11 +22,11 @@
 
 .gsm-gallery::-webkit-scrollbar-thumb {
 	border-radius: 4px;
-  background-color: #B6C8D4;
+  background-color: var(--scroll-bar--color);
 }
 
 .gsm-gallery {
-  scrollbar-color: #B6C8D4 transparent;
+  scrollbar-color: var(--scroll-bar--color) transparent;
 }
 
 .gsm-gallery__list {
@@ -52,7 +52,7 @@
 }
 
 .gsm-gallery__list__item img {
-  border: 2px solid #EBF1F5;
+  border: 2px solid var(--gallery--border-color);
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;

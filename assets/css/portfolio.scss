@@ -26,18 +26,18 @@
 
 .gsm-portfolio p > a,
 .gsm-portfolio p > a:visited {
-  color: #0B1D29;
+  color: var(--link--color);
   transition: background-position 0.2s ease-in-out,
               color 0.2s ease-in-out;
-  border-bottom: 2px solid #0B1D29;
+  border-bottom: 2px solid var(--link--color);
   background-size: 100% 200%;
-  background-image: linear-gradient(to top, #0B1D29 50%, transparent 50%);
+  background-image: linear-gradient(to top, var(--link--color) 50%, transparent 50%);
   padding: 2px 2px 0;
 }
 
 .gsm-portfolio p > a:hover,
 .gsm-portfolio p > a:focus {
-  color: #FFFFFF;
+  color: var(--link--hover--color);
   background-position: 0 100%;
 }
 

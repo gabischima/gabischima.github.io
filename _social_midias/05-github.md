@@ -1,4 +1,4 @@
 ---
-url: http://github.com/gabischima
+siteUrl: http://github.com/gabischima
 title: github
 ---

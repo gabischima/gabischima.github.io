@@ -1,6 +1,11 @@
 ---
 ---
 /*
+** VARIABLES
+*/
+@import "variables.css";
+
+/*
 ** GENERAL
 */
 @import "minireset.css";
@@ -18,3 +23,4 @@
 ** COMPONENTS
 */
 @import "gallery.css";
+@import "mode-switcher.css";

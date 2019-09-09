@@ -1,4 +1,4 @@
 ---
-url: http://flickr.com/photos/gabischima/albums
+siteUrl: http://flickr.com/photos/gabischima/albums
 title: flickr
 ---
