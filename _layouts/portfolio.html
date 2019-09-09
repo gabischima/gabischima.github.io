@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<ul class="gsm-portfolio">
+  {% for item in site.portfolio %}
+  <li class="gsm-portfolio__item">
+    <p class="gsm-portfolio__item__title">
+      {{ item[page.lang].title }}
+    </p>
+    {% if item[page.lang].subtitle %}
+    <p class="gsm-portfolio__item__subtitle">
+      {{ item[page.lang].subtitle }}
+    </p>
+    {% endif %}
+    <p class="gsm-portfolio__item__description">
+      {{ item[page.lang].description }}
+    </p>
+    {% if item.gallery %}
+    <div class="gsm-gallery">
+      <ul class="gsm-gallery__list _{{ item.gallery.direction }}">
+      {% for url in item.gallery.images %}
+      {% capture path %}/assets/images/portfolio/{{ url }}{% endcapture %}
+        <li class="gsm-gallery__list__item">
+          <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}">
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<script src="{{ "/assets/js/external/gsm-modal.min.js" | relative_url }}"></script>

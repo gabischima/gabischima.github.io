@@ -1,0 +1,30 @@
+---
+pt:
+  title: Ilustrações
+  description: Desenhos em geral.
+en:
+  title: Illustrations
+  description: Personal drawings.
+gallery:
+  direction: portrait
+  images:
+  - 'illustrations_00.jpg'
+  - 'illustrations_01.jpg'
+  - 'illustrations_02.jpg'
+  - 'illustrations_03.jpg'
+  - 'illustrations_04.jpg'
+  - 'illustrations_05.jpg'
+  - 'illustrations_06.jpg'
+  - 'illustrations_07.jpg'
+  - 'illustrations_08.jpg'
+  thumbnails:
+  - 'illustrations_00_tn.jpg'
+  - 'illustrations_01_tn.jpg'
+  - 'illustrations_02_tn.jpg'
+  - 'illustrations_03_tn.jpg'
+  - 'illustrations_04_tn.jpg'
+  - 'illustrations_05_tn.jpg'
+  - 'illustrations_06_tn.jpg'
+  - 'illustrations_07_tn.jpg'
+  - 'illustrations_08_tn.jpg'
+---
