@@ -18,8 +18,8 @@ layout: default
     {% if item.gallery %}
     <div class="gsm-gallery">
       <ul class="gsm-gallery__list _{{ item.gallery.direction }}">
-      {% for url in item.gallery.images %}
-      {% capture path %}/assets/images/portfolio/{{ url }}{% endcapture %}
+      {% for image in item.gallery.images %}
+      {% capture path %}/assets/images/portfolio/{{ image }}{% endcapture %}
         <li class="gsm-gallery__list__item">
           <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}">
         </li>
