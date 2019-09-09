@@ -1,0 +1,30 @@
+---
+pt:
+  title: Enne
+  description: '<a href="http://instagram.com/ennecoisa" target="_blank" rel="noopener noreferrer">Projeto</a> de desenho sobre a pele.'
+en:
+  title: Enne
+  description: '<a href="http://instagram.com/ennecoisa" target="_blank" rel="noopener noreferrer">Personal project</a> of drawings on the skin'
+gallery:
+  direction: portrait
+  images:
+  - 'enne_00.jpg'
+  - 'enne_01.jpg'
+  - 'enne_02.jpg'
+  - 'enne_03.jpg'
+  - 'enne_04.jpg'
+  - 'enne_05.jpg'
+  - 'enne_06.jpg'
+  - 'enne_07.jpg'
+  - 'enne_08.jpg'
+  thumbnails:
+  - 'enne_00_tn.jpg'
+  - 'enne_01_tn.jpg'
+  - 'enne_02_tn.jpg'
+  - 'enne_03_tn.jpg'
+  - 'enne_04_tn.jpg'
+  - 'enne_05_tn.jpg'
+  - 'enne_06_tn.jpg'
+  - 'enne_07_tn.jpg'
+  - 'enne_08_tn.jpg'
+---
