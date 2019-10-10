@@ -1,21 +1,23 @@
+---
+---
+/*
+** COLORS **
+--white-000: #FFFFFF;
+--white-100: #F9FAFB;
+--white-200: #EBF1F5;
+--white-300: #DFE9F0;
+--white-400: #B6C8D4;
+--white-500: #92A6B3;
+
+--black-500: #6F8796;
+--black-400: #486375;
+--black-300: #314C5E;
+--black-200: #193242;
+--black-100: #0B1D29;
+--black-000: #040d13;
+*/
+
 ._mode_dark {
-  /*
-  ** COLORS **
-  --white-000: #FFFFFF;
-  --white-100: #F9FAFB;
-  --white-200: #EBF1F5;
-  --white-300: #DFE9F0;
-  --white-400: #B6C8D4;
-  --white-500: #92A6B3;
-
-  --black-500: #6F8796;
-  --black-400: #486375;
-  --black-300: #314C5E;
-  --black-200: #193242;
-  --black-100: #0B1D29;
-  --black-000: #040d13;
-  */
-
   --body--bg-color: #040d13;
   --body--color: #F9FAFB;
 
@@ -26,7 +28,7 @@
 
   --header--border--top: 1px solid #193242;
 
-  --nav-list--color: #92A6B3;
+  --nav-list--color: #B6C8D4;
   --nav-list--active--color: #F9FAFB;
   --nav-list--svg--first--color: #92A6B3;
   --nav-list--svg--second--color: #486375;
@@ -52,23 +54,6 @@
 
 :root,
 ._mode_light {
-  /*
-  ** COLORS **
-  --white-000: #FFFFFF;
-  --white-100: #F9FAFB;
-  --white-200: #EBF1F5;
-  --white-300: #DFE9F0;
-  --white-400: #B6C8D4;
-  --white-500: #92A6B3;
-
-  --black-500: #6F8796;
-  --black-400: #486375;
-  --black-300: #314C5E;
-  --black-200: #193242;
-  --black-100: #0B1D29;
-  --black-000: #040d13;
-  */
-
   --body--bg-color: #FFFFFF;
   --body--color: #0B1D29;
 
@@ -79,7 +64,7 @@
 
   --header--border--top: 1px solid transparent;
 
-  --nav-list--color: #6F8796;
+  --nav-list--color: #486375;
   --nav-list--active--color: #0B1D29;
   --nav-list--svg--first--color: #6F8796;
   --nav-list--svg--second--color: #B6C8D4;

@@ -59,12 +59,12 @@ b {
   bottom: 0;
   width: 100vw;
   background-color: var(--body--bg-color);
+  /*
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   box-shadow: 0 10px 30px 20px rgba(5, 16, 23, 0.16);
-  /*
-  box-shadow: 0 8px 16px 8px rgba(5,16,23,0.16);
   */
+  box-shadow: 0 8px 16px 8px rgba(5,16,23,0.16);
   z-index: 1;
   border-top: var(--header--border--top);
 }
