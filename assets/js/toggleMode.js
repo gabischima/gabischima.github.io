@@ -9,6 +9,7 @@ if (modeInput) {
 }
 
 function onchageMode(element) {
+  ga('send', 'event', 'MODE', 'changeTo', element.checked ? 'light' : 'dark')
   if (element.checked) {
     document.body.classList.add('_mode_light');
     document.body.classList.remove('_mode_dark');
