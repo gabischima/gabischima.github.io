@@ -26,14 +26,14 @@
   --link--color: #F9FAFB;
   --link--hover--color: #0B1D29;
 
+  --btn--color: #F9FAFB;
+  --btn--hover--color: #FFFFFF;
+  --btn--hover--bg-color: #193242;
+
   --header--border--top: 1px solid #193242;
 
   --nav-list--color: #B6C8D4;
   --nav-list--active--color: #F9FAFB;
-  --nav-list--svg--first--color: #92A6B3;
-  --nav-list--svg--second--color: #486375;
-  --nav-list--svg--first--active--color: #F9FAFB;
-  --nav-list--svg--second--active--color: #92A6B3;
 
   --social-midia--fill: #92A6B3;
   --social-midia--hover--fill: #F9FAFB;
@@ -62,14 +62,14 @@
   --link--color: #0B1D29;
   --link--hover--color: #F9FAFB;
 
-  --header--border--top: 1px solid transparent;
+  --btn--color: #0B1D29;
+  --btn--hover--color: #040d13;
+  --btn--hover--bg-color: #EBF1F5;
+
+  --header--border--top: 1px solid #EBF1F5;
 
   --nav-list--color: #486375;
   --nav-list--active--color: #0B1D29;
-  --nav-list--svg--first--color: #6F8796;
-  --nav-list--svg--second--color: #B6C8D4;
-  --nav-list--svg--first--active--color: #0B1D29;
-  --nav-list--svg--second--active--color: #6F8796;
 
   --social-midia--fill: #6F8796;
   --social-midia--hover--fill: #0B1D29;

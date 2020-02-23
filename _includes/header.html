@@ -3,14 +3,7 @@
   <ul class="gsm-nav-list">
     <li class="gsm-nav-list__item{% if page.section == 'about' %} _active{% endif %}">
       <a href="{{ site.menu[language].about.link | prepend: site.url }}">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="about" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g transform="translate(3.500000, 1.000000)">
-              <ellipse cx="8.47058808" cy="5.75999989" rx="5.79566553" ry="5.75999989"></ellipse>
-              <path d="M3.48595392,11.7002713 C4.49641904,13.3885747 6.35057346,14.5198666 8.47058808,14.5198666 C10.5906027,14.5198666 12.4447571,13.3885747 13.4552222,11.7002713 C15.5681196,13.2311074 16.9411762,15.7099951 16.9411762,18.5076077 C16.9411762,23.1570525 0,23.1570525 0,18.5076077 C0,15.7099951 1.37305652,13.2311074 3.48595392,11.7002713 L3.48595392,11.7002713 Z"></path>
-            </g>
-          </g>
-        </svg>
+        <div class="gsm-nav-list__item__img"></div>
         <span>
           {{ site.menu[language].about.title }}
         </span>
@@ -18,14 +11,7 @@
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'portfolio' %} _active{% endif %}">
       <a href="{{ site.menu[language].portfolio.link | prepend: site.url }}">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g transform="translate(0.000000, 1.500000)">
-              <rect x="0" y="7" width="24" height="14" rx="1.41176471"></rect>
-              <path d="M8.4,2.50980392 L8.4,5.64705882 L6,5.64705882 L6,1.25490196 C6,0.561838745 6.5372583,0 7.2,0 L16.8,0 C17.4627417,0 18,0.561838745 18,1.25490196 L18,5.64705882 L15.6,5.64705882 L15.6,2.50980392 L8.4,2.50980392 Z" id="Path-2"></path>
-            </g>
-          </g>
-        </svg>
+        <div class="gsm-nav-list__item__img"></div>
         <span>
           {{ site.menu[language].portfolio.title }}
         </span>
@@ -33,29 +19,23 @@
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'curriculum' %} _active{% endif %}">
       <a href="{{ site.menu[language].curriculum.link | prepend: site.url }}">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="cv" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g transform="translate(1.000000, 1.000000)">
-              <path d="M18.7756387,11.7877599 L11.7877599,18.7756387 L0.723618541,7.71149732 C-0.24120618,6.7466726 -0.24120618,5.18238265 0.723618541,4.21755793 L4.21755793,0.723618541 C5.18238265,-0.24120618 6.7466726,-0.24120618 7.71149732,0.723618541 L18.7756387,11.7877599 Z"></path>
-              <path d="M20.93801,21.9366861 L12.9524064,19.9402852 L19.9402852,12.9524064 L21.9366861,20.93801 C22.0469968,21.3792528 21.7787233,21.8263754 21.3374804,21.9366861 C21.2063416,21.9694708 21.0691488,21.9694708 20.93801,21.9366861 Z"></path>
-            </g>
-          </g>
-        </svg>
+        <div class="gsm-nav-list__item__img"></div>
         <span>
           {{ site.menu[language].curriculum.title }}
         </span>
       </a>
     </li>
+    <li class="gsm-nav-list__item{% if page.section == 'ennecoisa' %} _active{% endif %}">
+      <a href="{{ site.menu[language].ennecoisa.link | prepend: site.url }}">
+        <div class="gsm-nav-list__item__img"></div>
+        <span>
+          {{ site.menu[language].ennecoisa.title }}
+        </span>
+      </a>
+    </li>
     <li class="gsm-nav-list__item{% if page.section == 'contact' %} _active{% endif %}">
       <a href="{{ site.menu[language].contact.link | prepend: site.url }}">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <g id="contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g transform="translate(0.000000, 4.000000)">
-              <path d="M24,2.82352941 L24,14.1176471 C24,14.8973432 23.3679314,15.5294118 22.5882353,15.5294118 L1.41176471,15.5294118 C0.632068588,15.5294118 0,14.8973432 0,14.1176471 L0,2.82352941 L9.96464754,9.72430068 C11.1848618,10.56933 12.8151382,10.56933 14.0353525,9.72430068 L24,2.82352941 Z"></path>
-              <path d="M0.869490338,0.637564364 L11.185859,8.20216716 C11.6739447,8.56006193 12.3260553,8.56006193 12.814141,8.20216716 L23.1305097,0.637564364 C23.2877027,0.522300652 23.3216931,0.301430809 23.2064294,0.144237763 C23.1399449,0.0535682427 23.0342391,1.5891698e-15 22.9218062,-8.8817842e-16 L1.07819375,-8.8817842e-16 C0.883269723,-1.51850527e-15 0.725252576,0.158017147 0.725252576,0.352941176 C0.725252576,0.465374065 0.778820818,0.571079836 0.869490338,0.637564364 Z" fill-rule="nonzero"></path>
-            </g>
-          </g>
-        </svg>
+        <div class="gsm-nav-list__item__img"></div>
         <span>
           {{ site.menu[language].contact.title }}
         </span>
