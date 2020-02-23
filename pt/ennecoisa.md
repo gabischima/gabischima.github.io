@@ -10,12 +10,12 @@ section: ennecoisa
       Faça download do Enne em branco para visualização da Realidade Aumentada.
     </p>
     <div>
-      <a class="gsm-enne__img__appstore _light" href="#">
+      <!-- <a class="gsm-enne__img__appstore _light" href="#">
         {%- include appStoreBadge/light/pt.svg -%}
       </a>
       <a class="gsm-enne__img__appstore _dark" href="#">
         {%- include appStoreBadge/dark/pt.svg -%}
-      </a>
+      </a> -->
       <a class="gsm-enne__img__download" href="{{ "/assets/images/ennecoisa.png" | relative_url }}" download="ennecoisa">baixar imagem</a>
     </div>
   </div>

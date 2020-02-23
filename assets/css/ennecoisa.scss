@@ -24,6 +24,7 @@
 
 .gsm-enne__img__appstore {
   vertical-align: middle;
+  margin-right: 24px;
 }
 .gsm-enne__img__appstore._dark,
 ._mode_light .gsm-enne__img__appstore._dark {
@@ -43,7 +44,6 @@
 .gsm-enne__img__download {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 24px;
   padding: 6px 12px;
   text-transform: lowercase;
   color: var(--btn--color);

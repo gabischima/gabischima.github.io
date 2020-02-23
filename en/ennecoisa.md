@@ -10,12 +10,12 @@ section: ennecoisa
       Download the blank Enne for Augmented Reality interaction.
     </p>
     <div>
-      <a class="gsm-enne__img__appstore _light" href="#">
+      <!-- <a class="gsm-enne__img__appstore _light" href="#">
         {%- include appStoreBadge/light/en.svg -%}
       </a>
       <a class="gsm-enne__img__appstore _dark" href="#">
         {%- include appStoreBadge/dark/en.svg -%}
-      </a>
+      </a> -->
       <a class="gsm-enne__img__download" href="{{ "/assets/images/ennecoisa.png" | relative_url }}" download="ennecoisa">download image</a>
     </div>
   </div>
