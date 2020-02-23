@@ -17,7 +17,7 @@ layout: default
     </p>
     {% if item.gallery %}
     <div class="gsm-gallery">
-      <ul class="gsm-gallery__list _{{ item.gallery.direction }}">
+      <ul class="gsm-gallery__list _direction_{{ item.gallery.direction }}">
       {% for image in item.gallery.images %}
       {% capture path %}/assets/images/portfolio/{{ image }}{% endcapture %}
         <li class="gsm-gallery__list__item">
