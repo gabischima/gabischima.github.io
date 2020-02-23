@@ -39,11 +39,11 @@
   white-space: nowrap;
 }
 
-.gsm-gallery__list._portrait .gsm-gallery__list__item {
+.gsm-gallery__list.__direction_portrait .gsm-gallery__list__item {
   width: 200px;
 }
 
-.gsm-gallery__list._landscape .gsm-gallery__list__item {
+.gsm-gallery__list.__direction_landscape .gsm-gallery__list__item {
   width: 300px;
 }
 
