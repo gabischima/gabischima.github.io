@@ -1,0 +1,90 @@
+---
+---
+
+.gsm-enne {
+  padding-top: 24px;
+}
+
+.gsm-enne__img {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.gsm-enne__img img {
+  max-width: 200px;
+  border: 2px solid var(--gallery--border-color);
+}
+
+.gsm-enne__img__subtitle {
+  max-width: 200px;
+  font-size: 10px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.gsm-enne__img__appstore {
+  vertical-align: middle;
+}
+.gsm-enne__img__appstore._dark,
+._mode_light .gsm-enne__img__appstore._dark {
+  display: none;
+}
+._mode_dark .gsm-enne__img__appstore._dark {
+  display: inline-block;
+}
+.gsm-enne__img__appstore._light,
+._mode_light .gsm-enne__img__appstore._light {
+  display: inline-block;
+}
+._mode_dark .gsm-enne__img__appstore._light {
+  display: none;
+}
+
+.gsm-enne__img__download {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 24px;
+  padding: 6px 12px;
+  text-transform: lowercase;
+  color: var(--btn--color);
+  border: 1px solid var(--btn--color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out,
+              color 0.2s ease-in-out;
+}
+.gsm-enne__img__download:hover {
+  color: var(--btn--hover--color);
+  background-color: var(--btn--hover--bg-color);
+}
+
+.gsm-enne__description p {
+  line-height: 24px;
+}
+
+.gsm-enne__description p:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+
+/*
+** DESKTOP
+*/
+
+@media screen and (min-width: 768px) {
+  .gsm-enne {
+    display: flex;
+  }
+
+  .gsm-enne__img {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc((100% / 12) * 5);
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .gsm-enne__img {
+    flex-basis: calc((960px / 12) * 5);
+  }
+}

@@ -36,6 +36,9 @@ menu:
     curriculum:
       title: curriculum
       link: /en/curriculum
+    ennecoisa:
+      title: ennecoisa
+      link: /en/ennecoisa
     contact:
       title: contact
       link: /en/contact
@@ -49,6 +52,9 @@ menu:
     curriculum:
       title: currículo
       link: /pt/curriculo
+    ennecoisa:
+      title: ennecoisa
+      link: /pt/ennecoisa
     contact:
       title: contato
       link: /pt/contato

@@ -6,7 +6,7 @@ pt:
 en:
   title: EnneThing
   subtitle: '<b>Acted as:</b>  illustrator, designer and developer (Swift/Objective-C).'
-  description: 'iOS Augmented Reality application for my business card and tattoo.'
+  description: 'iOS Augmented Reality app for my business card and tattoo.'
 gallery:
   direction: portrait
   images:

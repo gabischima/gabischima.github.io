@@ -59,12 +59,6 @@ b {
   bottom: 0;
   width: 100vw;
   background-color: var(--body--bg-color);
-  /*
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  box-shadow: 0 10px 30px 20px rgba(5, 16, 23, 0.16);
-  */
-  box-shadow: 0 8px 16px 8px rgba(5,16,23,0.16);
   z-index: 1;
   border-top: var(--header--border--top);
 }
@@ -72,44 +66,99 @@ b {
 .gsm-nav-list {
   font-size: 10px;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(5, 20%);
   justify-items: center;
 }
 
 .gsm-nav-list__item {
   padding: 12px 0;
+  text-align: center;
 }
-
 .gsm-nav-list__item a {
   color: var(--nav-list--color);
   display: block;
 }
-
-.gsm-nav-list__item a svg {
-  display: block;
-  margin: 0 auto 4px;
-}
-
-.gsm-nav-list__item a svg * {
-  fill: var(--nav-list--svg--first--color);
-}
-
-.gsm-nav-list__item a svg path:last-child {
-  fill: var(--nav-list--svg--second--color);
-}
-
-
 .gsm-nav-list__item._active a {
   color: var(--nav-list--active--color);
   font-weight: bold;
 }
 
-.gsm-nav-list__item._active a svg * {
-  fill: var(--nav-list--svg--first--active--color);
+._mode_dark .gsm-nav-list__item:nth-child(1) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/about_de_default.png" | relative_url }});
 }
-
-.gsm-nav-list__item._active a svg path:last-child {
-  fill: var(--nav-list--svg--second--active--color);
+._mode_dark .gsm-nav-list__item:nth-child(2) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/portfolio_de_default.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(3) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/cv_de_default.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(4) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/enne_de_default.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(5) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/contact_de_default.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(1)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/about_de_active.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(2)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/portfolio_de_active.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(3)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/cv_de_active.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(4)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/enne_de_active.png" | relative_url }});
+}
+._mode_dark .gsm-nav-list__item:nth-child(5)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/contact_de_active.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(1) .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(1) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/about_le_default.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(2) .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(2) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/portfolio_le_default.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(3) .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(3) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/cv_le_default.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(4) .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(4) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/enne_le_default.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(5) .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(5) .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/contact_le_default.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(1)._active .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(1)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/about_le_active.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(2)._active .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(2)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/portfolio_le_active.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(3)._active .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(3)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/cv_le_active.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(4)._active .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(4)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/enne_le_active.png" | relative_url }});
+}
+.gsm-nav-list__item:nth-child(5)._active .gsm-nav-list__item__img,
+._mode_light .gsm-nav-list__item:nth-child(5)._active .gsm-nav-list__item__img {
+  background-image: url({{ "/assets/images/navbar/contact_le_active.png" | relative_url }});
+}
+.gsm-nav-list__item__img {
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+  margin: auto;
+  margin-bottom: 4px;
 }
 
 /* FOOTER */
@@ -167,7 +216,7 @@ b {
     padding: 0 16px;
   }
 
-  .gsm-nav-list__item a svg {
+  .gsm-nav-list__item__img {
     height: 0;
     width: 0;
   }
