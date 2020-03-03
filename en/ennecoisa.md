@@ -10,12 +10,12 @@ section: ennecoisa
       Download the blank Enne for Augmented Reality interaction.
     </p>
     <div>
-      <!-- <a class="gsm-enne__img__appstore _light" href="#">
+      <a class="gsm-enne__img__appstore _light" href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">
         {%- include appStoreBadge/light/en.svg -%}
       </a>
-      <a class="gsm-enne__img__appstore _dark" href="#">
+      <a class="gsm-enne__img__appstore _dark" href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">
         {%- include appStoreBadge/dark/en.svg -%}
-      </a> -->
+      </a>
       <a class="gsm-enne__img__download" href="{{ "/assets/images/ennecoisa.png" | relative_url }}" download="ennecoisa">download image</a>
     </div>
   </div>
@@ -43,3 +43,5 @@ section: ennecoisa
     </p>
   </div>
 </div>
+
+<script src="{{ "/assets/js/listenApp.js " | prepend: site.baseurl }}"></script>
