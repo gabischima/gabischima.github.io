@@ -43,3 +43,5 @@ section: ennecoisa
     </p>
   </div>
 </div>
+
+<script src="{{ "/assets/js/listenApp.js " | prepend: site.baseurl }}"></script>
