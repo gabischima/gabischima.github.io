@@ -21,7 +21,7 @@ section: ennecoisa
   </div>
   <div class="gsm-enne__description">
     <p>
-      Enne is a blank character. Brings with it limit and freedom. Constant challenge to thin outside the box, beyond contour.
+      Enne is a blank character. Brings with it limit and freedom. Constant challenge to think outside the box, beyond contour.
     </p>
     <p>
       I tattooed to change it constantly, but I learned that I also don't have to. It's complete within it self, though it accepts (wishes) interactions from me or others.
@@ -33,7 +33,7 @@ section: ennecoisa
       It all started with sharing to Instagram, later asking other to draw in it, and now I share it virtually, beyond me.
     </p>
     <p>
-      The Ennething app was born to take this interaction to others. So they can mount their own Enne. Or  dismount even.
+      The Ennething app was born to take this interaction to others. So they can mount their own Enne. Or dismount even.
     </p>
     <p>
       In 2015 was the app's first release, with the Aumented Reality (AR) tecnology not so common and many paths to explore.
