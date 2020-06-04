@@ -1,6 +1,6 @@
 ---
 pt:
-  title: Ilustrações
+  title: Ilustrações 2
   description: Desenhos em geral.
 en:
   title: Illustrations
