@@ -29,7 +29,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: apple-touch-icon.png
+      image: /assets/images/enne_pattern.png
 
 sass:
   style: compressed
