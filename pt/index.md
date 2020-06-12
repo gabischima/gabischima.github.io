@@ -6,7 +6,7 @@ lang: pt
 
 <div class="gsm-about">
   <h3>
-    designer • desenvolvedora • ilustradora
+    desenvolvedora • designer • ilustradora
   </h3>
   <div class="gsm-about__img">
     <img src="{{ "/assets/images/thumb.png" | relative_url }}" alt="desenho auto-retrato">

@@ -6,7 +6,7 @@ lang: en
 
 <div class="gsm-about">
   <h3>
-    designer • developer • illustrator
+    developer • designer • illustrator
   </h3>
   <div class="gsm-about__img">
     <img src="{{ "/assets/images/thumb.png" | relative_url }}" alt="desenho auto-retrato">
