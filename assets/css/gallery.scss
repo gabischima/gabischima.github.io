@@ -39,12 +39,14 @@
   white-space: nowrap;
 }
 
-.gsm-gallery__list.__direction_portrait .gsm-gallery__list__item {
+.gsm-gallery__list._direction_portrait .gsm-gallery__list__item,
+.gsm-gallery__list._direction_portrait .gsm-gallery__list__item img {
   width: 200px;
 }
 
-.gsm-gallery__list.__direction_landscape .gsm-gallery__list__item {
-  width: 300px;
+.gsm-gallery__list._direction_landscape .gsm-gallery__list__item,
+.gsm-gallery__list._direction_landscape .gsm-gallery__list__item img  {
+  width: 350px;
 }
 
 .gsm-gallery__list__item + .gsm-gallery__list__item {
@@ -58,7 +60,6 @@
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
-  width: 200px;
   max-width: initial;
   cursor: pointer;
 }
