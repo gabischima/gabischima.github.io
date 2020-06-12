@@ -10,10 +10,10 @@ en:
 gallery:
   direction: portrait
   images:
-  - 'ennecoisa_2_00.png'
-  - 'ennecoisa_2_01.png'
-  - 'ennecoisa_2_02.png'
-  - 'ennecoisa_2_03.png'
-  - 'ennecoisa_2_04.jpg'
+  - 'ennecoisa_2_00.PNG'
+  - 'ennecoisa_2_01.PNG'
+  - 'ennecoisa_2_02.PNG'
+  - 'ennecoisa_2_03.PNG'
+  - 'ennecoisa_2_04.JPG'
   - 'ennecoisa_2_05.jpg'
 ---

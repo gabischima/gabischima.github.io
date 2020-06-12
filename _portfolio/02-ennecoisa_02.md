@@ -10,10 +10,10 @@ en:
 gallery:
   direction: landscape
   images:
-  - 'ennecoisa_3_00.png'
-  - 'ennecoisa_3_01.png'
-  - 'ennecoisa_3_02.png'
-  - 'ennecoisa_3_03.png'
-  - 'ennecoisa_3_04.png'
-  - 'ennecoisa_3_05.png'
+  - 'ennecoisa_3_00.PNG'
+  - 'ennecoisa_3_01.PNG'
+  - 'ennecoisa_3_02.PNG'
+  - 'ennecoisa_3_03.PNG'
+  - 'ennecoisa_3_04.PNG'
+  - 'ennecoisa_3_05.PNG'
 ---
