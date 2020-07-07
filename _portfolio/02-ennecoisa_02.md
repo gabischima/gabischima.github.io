@@ -6,7 +6,7 @@ pt:
 en:
   title: EnneThing iPad
   subtitle: '<b>Acted as:</b>  illustrator, designer and developer (Swift).'
-  description: 'Newst version of the iOS Augmented Reality app for iPad.'
+  description: 'Newest version of the iOS Augmented Reality app for iPad.'
 gallery:
   direction: landscape
   images:
