@@ -63,3 +63,11 @@
   max-width: initial;
   cursor: pointer;
 }
+
+._mode_dark .gsm-modal._open {
+  background-color: rgba(5, 16, 23, 0.60);
+}
+
+._mode_light .gsm-modal._open {
+  background-color: rgba(5, 16, 23, 0.32);
+}
