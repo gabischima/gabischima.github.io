@@ -7,9 +7,9 @@ layout: default
       {{ page.social }}
     </div>
     <div>
-      {% for midia in site.social_midias %}
-      <a href="{{midia.siteUrl}}" title="{{midia.title}}" target="_blank" rel="noopener noreferrer">
-        {%- include social-midias/{{midia.title}}.svg -%}
+      {% for media in site.social_medias %}
+      <a href="{{media.siteUrl}}" title="{{media.title}}" alt="{{media.title}}" target="_blank" rel="noopener noreferrer">
+        {%- include social-medias/{{media.title}}.svg -%}
       </a>
       {% endfor %}
     </div>

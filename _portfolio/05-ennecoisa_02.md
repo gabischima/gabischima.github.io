@@ -2,11 +2,11 @@
 pt:
   title: EnneCoisa iPad
   subtitle: '<b>Atuação:</b> ilustrações, design e desenvolvimento (Swift).'
-  description: 'Aplicativo iOS de Realidade Aumentada em versão mais recente para iPad.'
+  description: '<a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">Aplicativo iOS</a> de Realidade Aumentada em versão mais recente para iPad.'
 en:
   title: EnneThing iPad
   subtitle: '<b>Acted as:</b>  illustrator, designer and developer (Swift).'
-  description: 'Newst version of the iOS Augmented Reality app for iPad.'
+  description: 'Newest version of the <a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">iOS Augmented Reality app</a> for iPad.'
 gallery:
   direction: landscape
   images:

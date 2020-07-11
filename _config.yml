@@ -76,7 +76,7 @@ plugins:
   - jekyll-seo-tag
 
 collections:
-  social_midias:
+  social_medias:
     output: false
   curriculum:
     output: false
