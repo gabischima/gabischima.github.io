@@ -13,7 +13,7 @@ lang: en
   </div>
   <div class="gsm-about__description">
     <p>
-      I have a B.A. degree in Digital Media Design, at the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) and for my bachelor's final project, in 2013, I designed and developed a demo app for Augmented Reality in temporary tattoos called TattooAR. It was later presented at the Human-Computer Interaction International Conference 2015, in Los Angeles - CA.
+      I have a B.A. degree in Digital Media Design, at the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) and for my bachelor's final project, in 2013, I designed and developed an Augmented Reality demo app for temporary tattoos called TattooAR. It was later presented at the Human-Computer Interaction International Conference 2015, in Los Angeles - CA.
     </p>
     <p>
       That project inspired me to study programming and in 2015 I took part of the Apple Developer Academy. The program is a partnership between Apple and PUC-Rio to form iOS developers, teaching Swift and Objective-C, among other skills such as mobile design and entrepreneurship. With the knowledge I gained in the program, I was selected for the Scholarship tickets to attend to WWDC 2015 and 2016.
