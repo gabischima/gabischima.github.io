@@ -19,7 +19,7 @@ tagline: Personal site from Gabriela Schirmer Mauricio, brazilian developer, des
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site from Gabriela Schirmer Mauricio, brazilian developer, designer and illustrator.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gabischima.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gabischima.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gabischima
 github_username:  gabischima
 
