@@ -30,6 +30,8 @@ exclude:
   - package-lock.json
   - README.md
 
+version: '0.5.1'
+
 seo:
   pt:
     description:
