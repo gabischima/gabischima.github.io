@@ -29,6 +29,8 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - Gemfile
+  - Gemfile.lock
 
 version: '0.5.1'
 
