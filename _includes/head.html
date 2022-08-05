@@ -1,7 +1,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if page.section != 'about' %}Gabischima - {% endif %}{{ page.title }}</title>
+  <title>{%- if page.section != 'about' -%}Gabischima - {%- endif -%}{{ page.title }}</title>
   <link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | relative_url }}">
   <!-- reuse same icon for Safari -->
   <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
@@ -25,6 +25,6 @@
     @import url('{{ "/assets/css/style.css" | relative_url }}');
   </style>
 
-{% include seo.html %}
+{%- include seo.html -%}
 
 </head>

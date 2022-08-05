@@ -1,4 +1,4 @@
-{% assign language = page.lang | default: site.lang | default: 'en' %}
+{%- assign language = page.lang | default: site.lang | default: 'en' -%}
 <div class="gsm-header">
   <ul class="gsm-nav-list">
     <li class="gsm-nav-list__item{% if page.section == 'about' %} _active{% endif %}">
