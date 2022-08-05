@@ -2,35 +2,37 @@
 pt:
   title: Competências
   items:
-  - title: 'UI Design'
-  - title: 'UX Design'
   - title: 'iOS'
     subsections:
-    - '- <i>Swift</i>'
+    - 'Swift'
+    - 'UIKit'
+    - 'SwiftUI'
+    - 'SPM'
   - title: 'Web'
     subsections:
-    - '- <i>Javascript</i>'
-    - '- <i>HTML</i>'
-    - '- <i>CSS</i>'
-    - '- <i>Vue</i>'
-    - '- <i>Jekyll</i>'
-    - '- <i>Angular</i>'
+    - 'Javascript'
+    - 'HTML'
+    - 'CSS'
+    - 'Vue'
+  - title: Style-Dictionary
+  - title: 'UI Design'
   - title: 'Desenho e ilustração'
 en:
   title: Skills
   items:
-  - title: 'UI Design'
-  - title: 'UX Design'
   - title: 'iOS'
     subsections:
-    - '- <i>Swift</i>'
+    - 'Swift'
+    - 'UIKit'
+    - 'SwiftUI'
+    - 'SPM'
   - title: 'Web'
     subsections:
-    - '- <i>Javascript</i>'
-    - '- <i>HTML</i>'
-    - '- <i>CSS</i>'
-    - '- <i>Vue</i>'
-    - '- <i>Jekyll</i>'
-    - '- <i>Angular</i>'
+    - 'Javascript'
+    - 'HTML'
+    - 'CSS'
+    - 'Vue'
+  - title: Style-Dictionary
+  - title: 'UI Design'
   - title: 'Drawing and illustration'
 ---
