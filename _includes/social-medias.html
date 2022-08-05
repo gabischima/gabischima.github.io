@@ -1,0 +1,7 @@
+<div class="gsm-social-medias">
+  {%- for media in site.social_medias -%}
+  <a href="{{media.siteUrl}}" title="{{media.title}}" alt="{{media.title}}" target="_blank" rel="noopener noreferrer">
+    {%- include social-medias/{{media.title}}.svg -%}
+  </a>
+  {%- endfor -%}
+</div>
