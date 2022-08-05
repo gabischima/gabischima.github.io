@@ -50,6 +50,9 @@
   --switcher--base---bg-color: #486375;
   --switcher--bg-color: #040d13;
   --switcher--selected--color: #F9FAFB;
+
+  --cookies-bg-color: #EBF1F5;
+  --cookies-color: #0B1D29;
 }
 
 :root,
@@ -86,4 +89,7 @@
   --switcher--base---bg-color: #B6C8D4;
   --switcher--bg-color: #FFFFFF;
   --switcher--selected--color: #0B1D29;
+
+  --cookies-bg-color: #040d13;
+  --cookies-color: #F9FAFB;
 }

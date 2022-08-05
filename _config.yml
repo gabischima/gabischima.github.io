@@ -67,6 +67,14 @@ menu:
       title: currículo
       link: /pt/curriculo
 
+cookies:
+  pt:
+    text: Esse site utiliza cookies para analytics e preservar configurações de ambiente (modo dark ou light).
+    close: fechar
+  en:
+    text: This site uses cookie for analytics and preserve environment (light/dark) selection.
+    close: close
+
 # Build settings
 markdown: kramdown
 

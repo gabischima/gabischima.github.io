@@ -1,0 +1,50 @@
+---
+---
+.gsm-cookies {
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  z-index: 1;
+  background-color: var(--cookies-bg-color);
+  color: var(--cookies-color);
+  padding: 16px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.gsm-cookies._show {
+  display: block;
+}
+
+.gsm-cookies__button {
+  text-align: right;
+  margin-top: 4px;
+}
+
+.gsm-cookies__close,
+.gsm-cookies__close:visited {
+  color: var(--cookies-color);
+  transition: background-position 0.2s ease-in-out,
+              color 0.2s ease-in-out;
+  border-bottom: 1px solid var(--cookies-color);
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, var(--cookies-color) 50%, transparent 50%);
+  padding: 2px 2px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.gsm-cookies__close:hover,
+.gsm-cookies__close:focus {
+  color: var(--cookies-bg-color);
+  background-position: 0 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .gsm-cookies {
+    bottom: auto;
+    top: 16px;
+    left: 16px;
+    max-width: 320px;
+  }
+}
