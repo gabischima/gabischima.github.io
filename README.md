@@ -1,23 +1,34 @@
 # gabischima
 
-## Instalação e Funcionamento
+## Usage
 
-Install o Jekyll globaly:
+To run this project, install o Jekyll globaly:
 > for more information on jekyll installation go to the [official documentation](https://jekyllrb.com/docs/installation/)
 
 ```shell
 $ gem install bundler jekyll
 ```
 
-Insall project dependencies
+#### Install project dependencies
 
 ```shell
-$ bundle install
+$ make install
 ```
 
-To serve the project
+#### Serve the project
 
 ```shell
-$ bundle exec jekyll serve --host=0.0.0.0
+$ make serve
 ```
 
+#### Build with `gabischima.github.IO` url
+
+```shell
+$ make build
+```
+
+#### Build with `gabischima.com` url
+
+```shell
+$ make build-dotcom
+```

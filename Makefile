@@ -11,4 +11,3 @@ build:
 build-dotcom:
 	rm -rf ./dist
 	bundle exec jekyll build --config _config.yml,build/_dotcom.yml --destination dist
-	
