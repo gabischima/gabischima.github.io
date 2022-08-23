@@ -11,9 +11,9 @@ layout: home
   aqui é Gabi!<br>
 </h1>
 <h1>
-  <a class="gsm-link" href="">desenvolvedora</a><br>
-  <span class="gsm-home__and">&&</span><br>
-  <a class="gsm-link" href="">designer</a><br>
-  <span class="gsm-home__and">&&</span><br>
+  <a class="gsm-link" href="">desenvolvedora</a>
+  <span class="gsm-home__and">&&</span>
+  <a class="gsm-link" href="">designer</a>
+  <span class="gsm-home__and">&&</span>
   <a class="gsm-link" href="">ilustradora</a>
 </h1>
