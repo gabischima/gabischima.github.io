@@ -57,22 +57,36 @@ b {
 .gsm-header {
   position: fixed;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   background-color: var(--body--bg-color);
   z-index: 1;
-  border-top: var(--header--border--top);
+  padding: 0 16px;
 }
 
 .gsm-nav-list {
-  font-size: 10px;
+  font-size: 14px;
+  font-weight: bold;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(3, 33%);
   justify-items: center;
+  border-top: 2px solid var(--header--border-top--color);
 }
 
 .gsm-nav-list__item {
   padding: 12px 0;
   text-align: center;
+  position: relative;
+}
+.gsm-nav-list__item._active:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid var(--header--border-top--color);
+  position: absolute;
+  top: 0;
+  left: calc(50% - 6px);
 }
 .gsm-nav-list__item a {
   color: var(--nav-list--color);
@@ -80,85 +94,6 @@ b {
 }
 .gsm-nav-list__item._active a {
   color: var(--nav-list--active--color);
-  font-weight: bold;
-}
-
-._mode_dark .gsm-nav-list__item:nth-child(1) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/about_de_default.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(2) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/portfolio_de_default.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(3) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/cv_de_default.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(4) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/enne_de_default.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(5) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/contact_de_default.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(1)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/about_de_active.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(2)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/portfolio_de_active.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(3)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/cv_de_active.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(4)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/enne_de_active.png" | relative_url }});
-}
-._mode_dark .gsm-nav-list__item:nth-child(5)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/contact_de_active.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(1) .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(1) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/about_le_default.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(2) .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(2) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/portfolio_le_default.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(3) .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(3) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/cv_le_default.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(4) .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(4) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/enne_le_default.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(5) .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(5) .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/contact_le_default.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(1)._active .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(1)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/about_le_active.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(2)._active .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(2)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/portfolio_le_active.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(3)._active .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(3)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/cv_le_active.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(4)._active .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(4)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/enne_le_active.png" | relative_url }});
-}
-.gsm-nav-list__item:nth-child(5)._active .gsm-nav-list__item__img,
-._mode_light .gsm-nav-list__item:nth-child(5)._active .gsm-nav-list__item__img {
-  background-image: url({{ "/assets/images/navbar/contact_le_active.png" | relative_url }});
-}
-.gsm-nav-list__item__img {
-  width: 24px;
-  height: 24px;
-  background-size: 24px 24px;
-  margin: auto;
-  margin-bottom: 4px;
 }
 
 /* FOOTER */
@@ -168,7 +103,6 @@ b {
   padding: 48px 0 100px;
 }
 
-
 /*
 **  404
 */
@@ -176,7 +110,6 @@ b {
 .gsm-not-found h3 {
   margin-bottom: 8px;
 }
-
 
 @media screen and (min-width: 768px) {
   body {
@@ -210,13 +143,16 @@ b {
     display: block;
     text-align: right;
     font-size: 14px;
+    border: 0;
   }
 
   .gsm-nav-list__item {
     display: inline-block;
     padding: 0 16px;
   }
-
+  .gsm-nav-list__item._active:before {
+    border: 0;
+  }
   .gsm-nav-list__item__img {
     height: 0;
     width: 0;

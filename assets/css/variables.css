@@ -30,9 +30,9 @@
   --btn--hover--color: #FFFFFF;
   --btn--hover--bg-color: #193242;
 
-  --header--border--top: 1px solid #193242;
+  --header--border-top--color: #B6C8D4;
 
-  --nav-list--color: #B6C8D4;
+  --nav-list--color: #92A6B3;
   --nav-list--active--color: #F9FAFB;
 
   --social-media--fill: #92A6B3;
@@ -69,9 +69,9 @@
   --btn--hover--color: #040d13;
   --btn--hover--bg-color: #EBF1F5;
 
-  --header--border--top: 1px solid #EBF1F5;
+  --header--border-top--color: #193242;
 
-  --nav-list--color: #486375;
+  --nav-list--color: #6F8796;
   --nav-list--active--color: #0B1D29;
 
   --social-media--fill: #6F8796;
