@@ -40,15 +40,15 @@ seo:
       Portfolio de Gabriela Schirmer Mauricio. Desenvolvedora, designer e ilustradora.
   en:
     description: >- # this means to ignore newlines until "baseurl:"
-      Personal site from Gabriela Schirmer Mauricio, brazilian developer, designer and illustrator.
+      Gabriela Schirmer Mauricio personal site. Brazilian developer, designer and illustrator.
 
 sass:
   style: compressed
 
 menu:
   en:
-    about:
-      title: about
+    home:
+      title: home
       link: /en/
     portfolio:
       title: portfolio
@@ -57,8 +57,8 @@ menu:
       title: curriculum
       link: /en/curriculum
   pt:
-    about:
-      title: sobre
+    home:
+      title: home
       link: /pt/
     portfolio:
       title: portfolio

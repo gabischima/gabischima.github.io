@@ -1,11 +1,11 @@
 {%- assign language = page.lang | default: site.lang | default: 'en' -%}
 <div class="gsm-header">
   <ul class="gsm-nav-list">
-    <li class="gsm-nav-list__item{% if page.section == 'about' %} _active{% endif %}">
-      <a href="{{ site.menu[language].about.link | prepend: site.url }}">
+    <li class="gsm-nav-list__item{% if page.section == 'home' %} _active{% endif %}">
+      <a href="{{ site.menu[language].home.link | prepend: site.url }}">
         <div class="gsm-nav-list__item__img"></div>
         <span>
-          {{ site.menu[language].about.title }}
+          {{ site.menu[language].home.title }}
         </span>
       </a>
     </li>

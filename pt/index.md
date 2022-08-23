@@ -1,6 +1,6 @@
 ---
 title: Gabriela Schirmer Mauricio
-section: about
+section: home
 lang: pt
 
 layout: home
