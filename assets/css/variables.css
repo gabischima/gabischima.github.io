@@ -1,95 +1,95 @@
 ---
 ---
-/*
-** COLORS **
---white-000: #FFFFFF;
---white-100: #F9FAFB;
---white-200: #EBF1F5;
---white-300: #DFE9F0;
---white-400: #B6C8D4;
---white-500: #92A6B3;
-
---black-500: #6F8796;
---black-400: #486375;
---black-300: #314C5E;
---black-200: #193242;
---black-100: #0B1D29;
---black-000: #040d13;
-*/
 
 ._mode_dark {
-  --body--bg-color: #040d13;
-  --body--color: #F9FAFB;
+  --body--bg-color: var(--black-000);
+  --body--color: var(--white-100);
 
-  --h1--border-color: #193242;
+  --h1--border-color: var(--black-200);
+  --h1--connect--color: var(--white-500);
 
-  --link--color: #F9FAFB;
-  --link--hover--color: #0B1D29;
+  --link--color: var(--white-100);
+  --link--hover--color: var(--black-100);
 
-  --btn--color: #F9FAFB;
-  --btn--hover--color: #FFFFFF;
-  --btn--hover--bg-color: #193242;
+  --btn--color: var(--white-100);
+  --btn--hover--color: var(--white-000);
+  --btn--hover--bg-color: var(--black-200);
 
-  --header--border-top--color: #B6C8D4;
+  --header--border-top--color: var(--white-400);
 
-  --nav-list--color: #92A6B3;
-  --nav-list--active--color: #F9FAFB;
+  --nav-list--color: var(--white-500);
+  --nav-list--active--color: var(--white-100);
 
-  --social-media--fill: #92A6B3;
-  --social-media--hover--fill: #F9FAFB;
+  --social-media--fill: var(--white-500);
+  --social-media--hover--fill: var(--white-100);
 
-  --curriculum--bg-color: #193242;
-  --curriculum--border-color: #F9FAFB;
+  --curriculum--bg-color: var(--black-200);
+  --curriculum--border-color: var(--white-100);
 
-  --gallery--border-color: #193242;
+  --gallery--border-color: var(--black-200);
 
-  --scroll-bar--color: #486375;
+  --scroll-bar--color: var(--black-400);
 
-  --switcher--color: #DFE9F0;
-  --switcher--border-color: #DFE9F0;
-  --switcher--base---bg-color: #486375;
-  --switcher--bg-color: #040d13;
-  --switcher--selected--color: #F9FAFB;
+  --switcher--color: var(--white-300);
+  --switcher--border-color: var(--white-300);
+  --switcher--base---bg-color: var(--black-400);
+  --switcher--bg-color: var(--black-000);
+  --switcher--selected--color: var(--white-100);
 
-  --cookies-bg-color: #EBF1F5;
-  --cookies-color: #0B1D29;
+  --cookies-bg-color: var(--white-200);
+  --cookies-color: var(--black-100);
 }
 
 :root,
 ._mode_light {
-  --body--bg-color: #FFFFFF;
-  --body--color: #0B1D29;
+  --white-000: #FFFFFF;
+  --white-100: #F0F1F2;
+  --white-200: #E1E3E5;
+  --white-300: #D2D6D9;
+  --white-400: #B0B8BF;
+  --white-500: #929EA6;
 
-  --h1--border-color: #EBF1F5;
+  --black-500: #697983;
+  --black-400: #536068;
+  --black-300: #3E484E;
+  --black-200: #2A3135;
+  --black-100: #181C1E;
+  --black-000: #000000;
 
-  --link--color: #0B1D29;
-  --link--hover--color: #F9FAFB;
+  --body--bg-color: var(--white-000);
+  --body--color: var(--black-100);
 
-  --btn--color: #0B1D29;
-  --btn--hover--color: #040d13;
-  --btn--hover--bg-color: #EBF1F5;
+  --h1--border-color: var(--white-200);
+  --h1--connect--color: var(--white-500);
 
-  --header--border-top--color: #193242;
+  --link--color: var(--black-100);
+  --link--hover--color: var(--white-100);
 
-  --nav-list--color: #6F8796;
-  --nav-list--active--color: #0B1D29;
+  --btn--color: var(--black-100);
+  --btn--hover--color: var(--black-000);
+  --btn--hover--bg-color: var(--white-200);
 
-  --social-media--fill: #6F8796;
-  --social-media--hover--fill: #0B1D29;
+  --header--border-top--color: var(--black-200);
 
-  --curriculum--bg-color: #EBF1F5;
-  --curriculum--border-color: #0B1D29;
+  --nav-list--color: var(--black-500);
+  --nav-list--active--color: var(--black-100);
 
-  --gallery--border-color: #EBF1F5;
+  --social-media--fill: var(--black-500);
+  --social-media--hover--fill: var(--black-100);
 
-  --scroll-bar--color: #B6C8D4;
+  --curriculum--bg-color: var(--white-200);
+  --curriculum--border-color: var(--black-100);
 
-  --switcher--color: #314C5E;
-  --switcher--border-color: #314C5E;
-  --switcher--base---bg-color: #B6C8D4;
-  --switcher--bg-color: #FFFFFF;
-  --switcher--selected--color: #0B1D29;
+  --gallery--border-color: var(--white-200);
 
-  --cookies-bg-color: #040d13;
-  --cookies-color: #F9FAFB;
+  --scroll-bar--color: var(--white-400);
+
+  --switcher--color: var(--black-300);
+  --switcher--border-color: var(--black-300);
+  --switcher--base---bg-color: var(--white-400);
+  --switcher--bg-color: var(--white-000);
+  --switcher--selected--color: var(--black-100);
+
+  --cookies-bg-color: var(--black-000);
+  --cookies-color: var(--white-100);
 }

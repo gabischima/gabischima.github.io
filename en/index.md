@@ -6,8 +6,14 @@ lang: en
 layout: home
 ---
 
-<div class="gsm-about">
-  <h3>
-    developer • designer • illustrator
-  </h3>
-</div>
+<h1>
+  Hi,<br>
+  I'm Gabi!<br>
+</h1>
+<h1>
+  <a class="gsm-link" href="">developer</a><br>
+  <span class="gsm-home__and">&&</span><br>
+  <a class="gsm-link" href="">designer</a><br>
+  <span class="gsm-home__and">&&</span><br>
+  <a class="gsm-link" href="">illustrator</a>
+</h1>

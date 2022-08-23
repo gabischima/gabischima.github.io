@@ -2,9 +2,6 @@
 ---
 .gsm-cookies {
   display: none;
-  position: absolute;
-  bottom: 70px;
-  z-index: 1;
   background-color: var(--cookies-bg-color);
   color: var(--cookies-color);
   padding: 16px;
@@ -42,9 +39,12 @@
 
 @media screen and (min-width: 768px) {
   .gsm-cookies {
+    position: absolute;
+    z-index: 1;
     bottom: auto;
     top: 16px;
     left: 16px;
     max-width: 320px;
+    border-radius: 4px;
   }
 }

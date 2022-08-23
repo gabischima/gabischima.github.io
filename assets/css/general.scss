@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   font-size: 24px;
   border-bottom: 2px solid var(--h1--border-color);
@@ -26,7 +26,7 @@ h1 {
 }
 
 h3 {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   font-size: 16px;
 }
@@ -73,7 +73,6 @@ b {
 }
 
 .gsm-nav-list__item {
-  padding: 12px 0;
   text-align: center;
   position: relative;
 }
@@ -89,6 +88,7 @@ b {
   left: calc(50% - 6px);
 }
 .gsm-nav-list__item a {
+  padding: 16px 8px;
   color: var(--nav-list--color);
   display: block;
 }
@@ -136,7 +136,7 @@ b {
     width: auto;
     background-color: transparent;
     box-shadow: none;
-    padding-top: 36px;
+    padding-top: 48px;
   }
 
   .gsm-nav-list {
@@ -148,7 +148,10 @@ b {
 
   .gsm-nav-list__item {
     display: inline-block;
-    padding: 0 16px;
+    padding: 0;
+  }
+  .gsm-nav-list__item > a {
+    padding: 0;
   }
   .gsm-nav-list__item._active:before {
     border: 0;
