@@ -3,7 +3,7 @@ layout: content
 ---
 {%- include tabbar.html -%}
 <ul class="gsm-portfolio">
-  {%- for item in site.portfolio -%}
+  {%- for item in site.portfolio reversed -%}
   {% if page.tag == nil or item.tags contains page.tag %}
   <li class="gsm-portfolio__item">
     <p class="gsm-portfolio__item__title">
