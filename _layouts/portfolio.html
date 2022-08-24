@@ -1,8 +1,10 @@
 ---
 layout: content
 ---
+{%- include tabbar.html -%}
 <ul class="gsm-portfolio">
   {%- for item in site.portfolio -%}
+  {% if page.tag == nil or item.tags contains page.tag %}
   <li class="gsm-portfolio__item">
     <p class="gsm-portfolio__item__title">
       {{ item[page.lang].title }}
@@ -28,6 +30,7 @@ layout: content
     </div>
     {%- endif -%}
   </li>
+  {%- endif -%}
   {%- endfor -%}
 </ul>
 

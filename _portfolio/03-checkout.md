@@ -14,4 +14,5 @@ gallery:
     - 'checkout_2.png'
     - 'checkout_3.png'
     - 'checkout_4.png'
+tags: [development]
 ---

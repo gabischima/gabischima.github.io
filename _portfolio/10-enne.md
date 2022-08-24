@@ -17,4 +17,5 @@ gallery:
   - 'enne_06.JPG'
   - 'enne_07.JPG'
   - 'enne_08.JPG'
+tags: [illustration]
 ---

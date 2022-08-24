@@ -16,4 +16,5 @@ gallery:
   - 'ennecoisa_3_03.PNG'
   - 'ennecoisa_3_04.PNG'
   - 'ennecoisa_3_05.PNG'
+tags: [development, design, illustration]
 ---

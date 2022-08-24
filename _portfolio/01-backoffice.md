@@ -16,4 +16,5 @@ gallery:
     - 'extension_config_1.png'
     - 'extension_config_2.png'
     - 'extension_config_3.png'
+tags: [development]
 ---

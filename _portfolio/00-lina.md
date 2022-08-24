@@ -10,4 +10,5 @@ en:
 gallery:
   direction: portrait
   images:
+tags: [development, design]
 ---

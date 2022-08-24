@@ -13,4 +13,5 @@ gallery:
     - 'site_home_1.png'
     - 'site_home_2.png'
     - 'site_antifraud.png'
+tags: [development]
 ---

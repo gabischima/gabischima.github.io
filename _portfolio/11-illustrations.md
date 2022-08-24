@@ -25,4 +25,5 @@ gallery:
   - 'illustrations_1_14.jpg'
   - 'illustrations_1_15.jpg'
   - 'illustrations_1_16.jpg'
+tags: [illustration]
 ---

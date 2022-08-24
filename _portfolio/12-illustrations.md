@@ -17,4 +17,5 @@ gallery:
   - 'illustrations_2_06.jpg'
   - 'illustrations_2_07.jpg'
   - 'illustrations_2_08.jpg'
+tags: [illustration]
 ---

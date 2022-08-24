@@ -90,6 +90,38 @@ collections:
   portfolio:
     output: false
 
+
+portfolioTabbar:
+  all:
+    pt:
+      name: "todos"
+      url: ""
+    en:
+      name: "all"
+      url: ""
+  development:
+    pt:
+      name: "desenvolvimento"
+      url: "/desenvolvimento"
+    en:
+      name: "development"
+      url: "/development"
+  design:
+    pt:
+      name: "design"
+      url: "/design"
+    en:
+      name: "design"
+      url: "/design"
+  illustration:
+    pt:
+      name: "ilustração"
+      url: "/ilustracao"
+    en:
+      name: "illustration"
+      url: "/illustration"
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
