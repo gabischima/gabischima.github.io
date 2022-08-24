@@ -30,6 +30,11 @@
     line-height: 48px;
   }
 }
+@media screen and (min-width: 768px) {
+  .gsm-home__and {
+    display: inline;
+  }
+}
 @media screen and (min-width: 960px) {
   .gsm-home {
     padding: 48px 16px;
@@ -37,9 +42,5 @@
   .gsm-home > h1 {
     font-size: 48px;
     line-height: 60px;
-  }
-
-  .gsm-home__and {
-    display: inline;
   }
 }
