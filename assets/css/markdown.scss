@@ -1,0 +1,78 @@
+---
+---
+
+/*
+** HEADER / PARAGRAPH
+*/
+
+.gsm-markdown h1,
+.gsm-markdown h2,
+.gsm-markdown h3,
+.gsm-markdown h4,
+.gsm-markdown h5,
+.gsm-markdown h6 {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.gsm-markdown h1 {
+  font-size: 24px;
+  border-width: 2px;
+}
+.gsm-markdown h2 {
+  font-size: 20px;
+  border-bottom: 1px solid var(--header-text--border--color);
+}
+.gsm-markdown h3 {
+  font-size: 16px;
+}
+.gsm-markdown h4 {
+  font-size: 14px;
+}
+.gsm-markdown h5 {
+  font-size: 12px;
+}
+.gsm-markdown h6 {
+  font-size: 10px;
+}
+
+.gsm-markdown h1,
+.gsm-markdown h2,
+.gsm-markdown h3,
+.gsm-markdown h4,
+.gsm-markdown h5,
+.gsm-markdown h6,
+.gsm-markdown p {
+    margin-bottom: 12px;
+}
+
+/*
+** TABLE
+*/
+
+.gsm-markdown > * {
+  margin-bottom: 12px;
+}
+
+.gsm-markdown table th,
+.gsm-markdown table td {
+  padding: 8px 4px;
+  border: 1px solid var(--table--border--color);
+}
+
+.gsm-markdown table tr {
+  border: 1px solid var(--table--border--color);
+}
+
+.gsm-markdown table tr:nth-child(2n) {
+  background-color: var(--table--bg-color--even);
+}
+
+/*
+** HR
+*/
+
+.gsm-markdown hr {
+  border-width: 0px;
+  border-bottom: 1px solid var(---header-text--border--color);
+}
