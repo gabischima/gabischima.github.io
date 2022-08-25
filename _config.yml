@@ -69,11 +69,11 @@ menu:
 
 cookies:
   pt:
-    text: Esse site utiliza cookies para analytics e preservar configurações de ambiente (modo dark ou light).
-    close: fechar
+    text: Esse site utiliza cookies para analytics e preservar configurações de ambiente (modo dark ou light). Nenhum dado pessoal ou identificável está sendo coletado.
+    agree: aceito
   en:
-    text: This site uses cookie for analytics and preserve environment (light/dark) selection.
-    close: close
+    text: This site uses cookies for analytics and save environment (light/dark) settings. No personal or personally identifiable data is being tracked.
+    agree: I agree
 
 # Build settings
 markdown: kramdown

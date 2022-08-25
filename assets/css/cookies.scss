@@ -37,14 +37,14 @@
   background-position: 0 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   .gsm-cookies {
     position: absolute;
     z-index: 1;
     bottom: auto;
     top: 16px;
     left: 16px;
-    max-width: 420px;
+    max-width: 544px;
     border-radius: 4px;
   }
 }
