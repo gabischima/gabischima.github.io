@@ -2,7 +2,7 @@
 pt:
   title: Emerald Design System
   subtitle: '<b>Atuação:</b> Front-end, designer e ilustradora.'
-  description: 'Participei da criação e concepção do Design System, implementação da lib de CSS, além de ilustrar ícones de páginas de erro. Utilizamos a ferramenta do <a href="https://patternlab.io" target="_blank" rel="noopener noreferrer">PatternLab</a> para desenvolver, com base nos princípios do Design Atômico. Fui a principal desenvolvedora do Styleguide, feito em Jekyll.'
+  description: 'Participei da criação e concepção do Design System, implementação da lib de CSS, além de ilustrar ícones e páginas de erro. Utilizamos a ferramenta do <a href="https://patternlab.io" target="_blank" rel="noopener noreferrer">PatternLab</a> para desenvolver, com base nos princípios do Design Atômico. Fui a principal desenvolvedora do Styleguide, feito em Jekyll.'
 en:
   title: Emerald Design System
   subtitle: '<b>Acted as:</b> Front-end developer, designer and illustrator.'
