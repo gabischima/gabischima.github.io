@@ -19,7 +19,5 @@ gallery:
     - 'emerald_7.png'
     - 'emerald_8.png'
     - 'emerald_9.png'
-    - 'emerald_10.png'
-    - 'emerald_11.png'
 tags: [development, design, illustration]
 ---

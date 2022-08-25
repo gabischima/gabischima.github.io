@@ -10,6 +10,18 @@ en:
 gallery:
   direction: portrait
   images:
+    - 'lina_1.png'
+    - 'lina_2.png'
+    - 'lina_3.png'
+    - 'lina_4.png'
+    - 'lina_5.png'
+    - 'lina_6.png'
+    - 'lina_7.png'
+    - 'lina_8.png'
+    - 'lina_9.png'
+    - 'lina_10.png'
+    - 'lina_11.png'
+    - 'lina_12.png'
 tags: [development, design]
 ---
 // print from ios-views

@@ -10,6 +10,10 @@ en:
 gallery:
   direction: portrait
   images:
+    - 'zap-viva_1.png'
+    - 'zap-viva_2.png'
+    - 'zap-viva_3.png'
+    - 'zap-viva_4.png'
 tags: [development]
 ---
 // viva and zap print
