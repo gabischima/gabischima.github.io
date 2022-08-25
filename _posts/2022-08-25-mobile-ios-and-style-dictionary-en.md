@@ -12,7 +12,7 @@ markdown tags to override
 ##### h5
 ###### h6
 
-some paragraph
+some paragraph  
 same paragraph
 
 another paragraph

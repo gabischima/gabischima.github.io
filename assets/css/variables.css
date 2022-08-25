@@ -5,8 +5,8 @@
   --body--bg-color: var(--black-000);
   --body--color: var(--white-100);
 
-  --h1--border-color: var(--black-200);
-  --h1--connect--color: var(--white-500);
+  --header-text--border--color: var(--black-200);
+  --header-text--connect--color: var(--white-500);
 
   --link--color: var(--white-100);
   --link--hover--color: var(--black-100);
@@ -15,7 +15,7 @@
   --btn--hover--color: var(--white-000);
   --btn--hover--bg-color: var(--black-200);
 
-  --header--border-top--color: var(--white-400);
+  --navigation--border-top--color: var(--white-400);
 
   --nav-list--color: var(--white-500);
   --nav-list--active--color: var(--white-100);
@@ -24,20 +24,23 @@
   --social-media--hover--fill: var(--white-100);
 
   --curriculum--bg-color: var(--black-200);
-  --curriculum--border-color: var(--white-100);
+  --curriculum--border--color: var(--white-100);
 
-  --gallery--border-color: var(--black-200);
+  --gallery--border--color: var(--black-200);
 
   --scroll-bar--color: var(--black-400);
 
   --switcher--color: var(--white-300);
-  --switcher--border-color: var(--white-300);
+  --switcher--border--color: var(--white-300);
   --switcher--base---bg-color: var(--black-400);
   --switcher--bg-color: var(--black-000);
   --switcher--selected--color: var(--white-100);
 
   --cookies-bg-color: var(--white-200);
   --cookies-color: var(--black-100);
+
+  --table--border--color: var(--black-500);
+  --table--bg-color--even: var(--black-200);
 }
 
 :root,
@@ -59,8 +62,8 @@
   --body--bg-color: var(--white-000);
   --body--color: var(--black-100);
 
-  --h1--border-color: var(--white-200);
-  --h1--connect--color: var(--white-500);
+  --header-text--border--color: var(--white-200);
+  --header-text--connect--color: var(--white-500);
 
   --link--color: var(--black-100);
   --link--hover--color: var(--white-100);
@@ -69,7 +72,7 @@
   --btn--hover--color: var(--black-000);
   --btn--hover--bg-color: var(--white-200);
 
-  --header--border-top--color: var(--black-200);
+  --navigation--border-top--color: var(--black-200);
 
   --nav-list--color: var(--black-500);
   --nav-list--active--color: var(--black-100);
@@ -78,18 +81,21 @@
   --social-media--hover--fill: var(--black-100);
 
   --curriculum--bg-color: var(--white-200);
-  --curriculum--border-color: var(--black-100);
+  --curriculum--border--color: var(--black-100);
 
-  --gallery--border-color: var(--white-200);
+  --gallery--border--color: var(--white-200);
 
   --scroll-bar--color: var(--white-400);
 
   --switcher--color: var(--black-300);
-  --switcher--border-color: var(--black-300);
+  --switcher--border--color: var(--black-300);
   --switcher--base---bg-color: var(--white-400);
   --switcher--bg-color: var(--white-000);
   --switcher--selected--color: var(--black-100);
 
   --cookies-bg-color: var(--black-000);
   --cookies-color: var(--white-100);
+
+  --table--border--color: var(--white-500);
+  --table--bg-color--even: var(--white-100);
 }
