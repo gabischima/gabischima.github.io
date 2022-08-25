@@ -15,16 +15,16 @@
   padding-top: 24px;
 }
 
-.gsm-contact__social a + a {
+.gsm-social-medias a + a {
   margin-left: 12px;
 }
 
-.gsm-contact__social a svg > path {
+.gsm-social-medias a svg > path {
   fill: var(--social-media--fill);
   transition: fill 0.2s ease-in-out;
 }
 
-.gsm-contact__social a:hover svg > path {
+.gsm-social-medias a:hover svg > path {
   fill: var(--social-media--hover--fill);
 }
 

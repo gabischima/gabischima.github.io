@@ -29,6 +29,10 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - Gemfile
+  - Gemfile.lock
+
+version: '0.5.1'
 
 seo:
   pt:
@@ -36,15 +40,15 @@ seo:
       Portfolio de Gabriela Schirmer Mauricio. Desenvolvedora, designer e ilustradora.
   en:
     description: >- # this means to ignore newlines until "baseurl:"
-      Personal site from Gabriela Schirmer Mauricio, brazilian developer, designer and illustrator.
+      Gabriela Schirmer Mauricio personal site. Brazilian developer, designer and illustrator.
 
 sass:
   style: compressed
 
 menu:
   en:
-    about:
-      title: about
+    home:
+      title: home
       link: /en/
     portfolio:
       title: portfolio
@@ -52,15 +56,9 @@ menu:
     curriculum:
       title: curriculum
       link: /en/curriculum
-    ennecoisa:
-      title: ennecoisa
-      link: /en/ennecoisa
-    contact:
-      title: contact
-      link: /en/contact
   pt:
-    about:
-      title: sobre
+    home:
+      title: home
       link: /pt/
     portfolio:
       title: portfolio
@@ -68,12 +66,14 @@ menu:
     curriculum:
       title: currículo
       link: /pt/curriculo
-    ennecoisa:
-      title: ennecoisa
-      link: /pt/ennecoisa
-    contact:
-      title: contato
-      link: /pt/contato
+
+cookies:
+  pt:
+    text: Esse site utiliza cookies para analytics e preservar configurações de ambiente (modo dark ou light). Nenhum dado pessoal ou identificável está sendo coletado.
+    agree: aceito
+  en:
+    text: This site uses cookies for analytics and save environment (light/dark) settings. No personal or personally identifiable data is being tracked.
+    agree: I agree
 
 # Build settings
 markdown: kramdown
@@ -89,6 +89,38 @@ collections:
     output: false
   portfolio:
     output: false
+
+
+portfolioTabbar:
+  all:
+    pt:
+      name: "todos"
+      url: ""
+    en:
+      name: "all"
+      url: ""
+  development:
+    pt:
+      name: "desenvolvimento"
+      url: "/desenvolvimento"
+    en:
+      name: "development"
+      url: "/development"
+  design:
+    pt:
+      name: "design"
+      url: "/design"
+    en:
+      name: "design"
+      url: "/design"
+  illustration:
+    pt:
+      name: "ilustração"
+      url: "/ilustracao"
+    en:
+      name: "illustration"
+      url: "/illustration"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

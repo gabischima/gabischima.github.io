@@ -1,26 +1,26 @@
 ---
-layout: default
+layout: content
 ---
 <ul class="gsm-curriculum">
-    {% for session in site.curriculum %}
+    {%- for session in site.curriculum -%}
     <li class="gsm-curriculum__item">
       <p class="gsm-curriculum__item__title">
         {{ session[page.lang].title }}
       </p>
       <ul class="gsm-curriculum__item__content">
-        {% for item in session[page.lang].items %}
+        {%- for item in session[page.lang].items -%}
         <li>
           {{ item.title }}
-          {% if item.subsections %}
+          {%- if item.subsections -%}
           <ul>
-            {% for subsection in item.subsections %}
-            <li>{{ subsection }}</li>
-            {% endfor %}
+            {%- for subsection in item.subsections -%}
+            <li>- <i>{{ subsection }}</i></li>
+            {%- endfor -%}
           </ul>
-          {% endif %}
+          {%- endif -%}
         </li>
-        {% endfor %}
+        {%- endfor -%}
       </ul>
     </li>
-    {% endfor %}
+    {%- endfor -%}
 </ul>

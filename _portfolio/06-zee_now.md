@@ -14,4 +14,5 @@ gallery:
   - 'zeenow_01.PNG'
   - 'zeenow_02.PNG'
   - 'zeenow_03.PNG'
+tags: [development]
 ---

@@ -1,0 +1,24 @@
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+<div class="gsm-cookies">
+  <p class="gsm-cookies__text">🍪 {{ site.cookies[lang].text }}</p>
+  <p class="gsm-cookies__button">
+    <button class="gsm-cookies__close">{{site.cookies[lang].agree}}</button>
+  </p>
+</div>
+
+<script>
+  let closeCookiesButton = document.querySelector('.gsm-cookies__close')
+  let cookies = document.querySelector('.gsm-cookies')
+  var cookieClick = localStorage.getItem('cookies');
+
+  if (cookies) {
+    if (!cookieClick) {
+      cookies.classList.add('_show');
+    }
+  }
+
+  closeCookiesButton.addEventListener('click', function () {
+    localStorage.setItem('cookies', 'true');
+    cookies.classList.remove('_show');
+  });
+</script>

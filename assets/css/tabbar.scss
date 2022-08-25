@@ -1,0 +1,74 @@
+---
+---
+/*
+** TABBAR
+*/
+
+
+.gsm-tabbar {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 24px;
+}
+
+.gsm-tabbar::-webkit-scrollbar {
+  display: none;
+}
+
+.gsm-tabbar__list {
+  display: flex;
+  /* iOS Safari */
+  position: relative;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+.gsm-tabbar__item {
+  cursor: pointer;
+  color: var(--nav-list--color);
+  transition: color 300ms ease-in-out;
+  position: relative;
+  margin-right: 16px;
+}
+
+.gsm-tabbar__link,
+.gsm-tabbar__link:link {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: semibold;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+/* Default Colors */
+
+.gsm-tabbar__link,
+.gsm-tabbar__link:link,
+.gsm-tabbar__link:visited {
+  color: var(--nav-list--color);
+}
+
+.gsm-tabbar__item:hover .gsm-tabbar__link,
+.gsm-tabbar__item:active .gsm-tabbar__link,
+.gsm-tabbar__item:focus .gsm-tabbar__link,
+.gsm-tabbar__link._active {
+  color: var(--nav-list--active--color);
+  font-weight: bold;
+}
+
+@media (hover:none), (hover:on-demand) {
+  .gsm-tabbar__item:hover .gsm-tabbar__link {
+    color: var(--nav-list--active--color);
+  }
+  .gsm-tabbar__item .gsm-tabbar__link._active {
+    color: var(--nav-list--active--color);
+  }
+}
+
