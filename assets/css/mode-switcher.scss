@@ -23,7 +23,7 @@
   width: 60px;
   height: 25px;
   right: 0;
-  border: 1px solid var(--switcher--border-color);
+  border: 1px solid var(--switcher--border--color);
   background-color: var(--switcher--base---bg-color);
 }
 
@@ -32,7 +32,7 @@
   position: absolute;
   height: 25px;
   width: 31px;
-  border: 1px solid var(--switcher--border-color);
+  border: 1px solid var(--switcher--border--color);
   background-color: var(--switcher--bg-color);
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@
   top: -5px;
   width: 2px;
   height: 26px;
-  background-color: var(--switcher--border-color);
+  background-color: var(--switcher--border--color);
   border-radius: 1px;
   transform: rotate(25deg) skewX(25deg);
 }
@@ -93,7 +93,7 @@ input:checked + .gsm-mode-switcher__left + .gsm-mode-switcher__right::before {
   width: 2px;
   height: 26px;
   top: -5px;
-  background-color: var(--switcher--border-color);
+  background-color: var(--switcher--border--color);
   border-radius: 1px;
   transform: rotate(-25deg) skewX(-25deg);
 }
