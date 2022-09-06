@@ -2,7 +2,7 @@
 ---
 
 ._mode_dark {
-  --body--bg-color: var(--black-000);
+  --body--bg-color: var(--black-100);
   --body--color: var(--white-100);
 
   --header-text--border--color: var(--black-200);
@@ -41,6 +41,10 @@
 
   --table--border--color: var(--black-500);
   --table--bg-color--even: var(--black-200);
+
+  --blockquote--bg-color: var(--black-000);
+  --blockquote--color: var(--black-500);
+  --blockquote--border-color: var(--black-500);
 }
 
 :root,
@@ -98,4 +102,8 @@
 
   --table--border--color: var(--white-500);
   --table--bg-color--even: var(--white-100);
+
+  --blockquote--bg-color: var(--white-100);
+  --blockquote--color: var(--black-400);
+  --blockquote--border-color: var(--white-500);
 }
