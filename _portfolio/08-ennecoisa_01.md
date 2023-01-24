@@ -2,11 +2,11 @@
 pt:
   title: EnneCoisa iPhone
   subtitle: '<b>Atuação:</b> ilustrações, design e desenvolvimento (Swift).'
-  description: 'Aplicativo iOS de Realidade Aumentada em versão mais recente.'
+  description: '<a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">Aplicativo iOS</a> de Realidade Aumentada em versão mais recente.'
 en:
   title: EnneThing iPhone
   subtitle: '<b>Acted as:</b>  illustrator, designer and developer (Swift).'
-  description: 'Newest version of the iOS Augmented Reality app for my business card and personal tattoo.'
+  description: 'Newest version of the <a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">iOS Augmented Reality app</a> for my business card and personal tattoo.'
 gallery:
   direction: portrait
   images:

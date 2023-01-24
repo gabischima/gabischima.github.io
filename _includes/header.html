@@ -22,5 +22,12 @@
         </span>
       </a>
     </li>
+    <li class="gsm-nav-list__item{% if page.section == 'ennecoisa' %} _active{% endif %}">
+      <a href="{{ site.menu[language].ennecoisa.link | prepend: site.url }}">
+        <span>
+          {{ site.menu[language].ennecoisa.title }}
+        </span>
+      </a>
+    </li>
   </ul>
 </div>
