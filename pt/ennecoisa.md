@@ -2,6 +2,8 @@
 title: Ennecoisa
 lang: pt
 section: ennecoisa
+
+layout: content
 ---
 <div class="gsm-enne">
   <div class="gsm-enne__img">
@@ -18,10 +20,6 @@ section: ennecoisa
       </a>
       <a class="gsm-enne__img__download" href="{{ "/assets/images/ennecoisa.png" | relative_url }}" download="ennecoisa">baixar imagem</a>
     </div>
-  </div>
-  <div class="gsm-enne__description">
-    <p>
-    </p>
   </div>
 </div>
 
