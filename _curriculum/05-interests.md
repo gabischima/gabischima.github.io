@@ -8,7 +8,7 @@ pt:
   - title: 'Interação Humano-Computador'
   - title: 'UX/UI Design'
   - title: 'Desenho e ilustração'
-  - title: 'Animation'
+  - title: 'Animação'
   - title: 'Design e animação de personagem'
 en:
   title: Interests
