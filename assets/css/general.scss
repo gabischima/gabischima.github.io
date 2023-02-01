@@ -66,9 +66,8 @@ b {
 .gsm-nav-list {
   font-size: 14px;
   font-weight: bold;
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
-  justify-items: center;
+  display: flex;
+  justify-content: space-between;
   border-top: 2px solid var(--navigation--border-top--color);
 }
 
