@@ -2,9 +2,9 @@
 <div class="gsm-footer">
   <p class="gsm-language-select">
     {%- if lang == 'pt' -%}
-      change to <a class="gsm-link" href="{{ site.menu.en[page.section].link | prepend: site.url }}">english version</a>
+      change to <a class="gsm-link" href="{{ page.url | prepend: site.url | replace: '/pt/', '/en/' }}">english version</a>
     {%- else -%}
-      mudar para <a class="gsm-link" href="{{ site.menu.pt[page.section].link | prepend: site.url }}">português</a>
+      mudar para <a class="gsm-link" href="{{ page.url | prepend: site.url | replace: '/en/', '/pt/' }}">português</a>
     {%- endif -%}
   </p>
   {%- include mode-switcher.html -%}
