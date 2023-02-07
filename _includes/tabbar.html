@@ -2,25 +2,25 @@
 <div class="gsm-tabbar">
   <ul class="gsm-tabbar__list">
     <li class="gsm-tabbar__item">
-      {%- assign item = site.portfolio.all[lang] -%}
+      {%- assign item = site.portfolioTabbar.all[lang] -%}
       <a href="{{ site.menu[lang].portfolio.link | prepend: site.url }}" class="gsm-tabbar__link{% unless page.tag %} _active{% endunless %}">
         {{ item.name }}
       </a>
     </li>
     <li class="gsm-tabbar__item">
-      {%- assign item = site.portfolio.development[lang] -%}
+      {%- assign item = site.portfolioTabbar.development[lang] -%}
       <a href="{{ site.menu[lang].portfolio.link | prepend: site.url }}{{ item.url }}" class="gsm-tabbar__link{% if page.tag == item.name %} _active{% endif %}">
         {{ item.name }}
       </a>
     </li>
     <li class="gsm-tabbar__item">
-      {%- assign item = site.portfolio.design[lang] -%}
+      {%- assign item = site.portfolioTabbar.design[lang] -%}
       <a href="{{ site.menu[lang].portfolio.link | prepend: site.url }}{{ item.url }}" class="gsm-tabbar__link{% if page.tag == item.name %} _active{% endif %}">
         {{ item.name }}
       </a>
     </li>
     <li class="gsm-tabbar__item">
-      {%- assign item = site.portfolio.illustration[lang] -%}
+      {%- assign item = site.portfolioTabbar.illustration[lang] -%}
       <a href="{{ site.menu[lang].portfolio.link | prepend: site.url }}{{ item.url }}" class="gsm-tabbar__link{% if page.tag == item.name %} _active{% endif %}">
         {{ item.name }}
       </a>
