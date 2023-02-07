@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Mobile iOS and Style Dictionary"
+lang: en
 ---
 
 markdown tags to override
