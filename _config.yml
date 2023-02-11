@@ -99,7 +99,7 @@ portfolioTabbar:
   development:
     pt:
       name: "desenvolvimento"
-      url: "/desenvolvimento"
+      url: "/development"
     en:
       name: "development"
       url: "/development"
@@ -113,7 +113,7 @@ portfolioTabbar:
   illustration:
     pt:
       name: "ilustração"
-      url: "/ilustracao"
+      url: "/illustration"
     en:
       name: "illustration"
       url: "/illustration"
