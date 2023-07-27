@@ -1,6 +1,7 @@
 ---
-title: Portfolio
+title: Portfólio
 layout: portfolio
+lang: pt
 section: portfolio
 
 tag: development
