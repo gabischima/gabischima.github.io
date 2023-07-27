@@ -76,3 +76,50 @@
   border-width: 0px;
   border-bottom: 1px solid var(---header-text--border--color);
 }
+
+/*
+** LIST
+*/
+
+.gsm-markdown ol,
+.gsm-markdown ul {
+    padding-left: 24px;
+}
+
+.gsm-markdown .task-list-item > input[type=checkbox] {
+  margin-right: 4px;
+}
+
+.gsm-markdown ul li > * {
+  margin-bottom: 2px;
+}
+
+.gsm-markdown ul {
+  list-style: disc;
+}
+
+/*
+** BLOCKQUOTE
+*/
+
+.gsm-markdown blockquote {
+    padding: 0px 12px;
+    background-color: var(--blockquote--bg-color);
+    color: var(--blockquote--color);
+    border-left: 1px solid var(--blockquote--border-color);
+}
+.gsm-markdown blockquote > * {
+  margin: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+/*
+** LINK
+*/
+
+.gsm-markdown a:any-link {
+  color: var(--link--color);
+  text-decoration: underline;
+}

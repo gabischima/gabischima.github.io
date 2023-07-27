@@ -22,15 +22,6 @@ baseurl: ""
 url: "https://gabischima.github.io"
 twitter_username: gabischima
 github_username:  gabischima
-exclude:
-  - Makefile
-  - dist
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - README.md
-  - Gemfile
-  - Gemfile.lock
 
 version: '0.5.1'
 
@@ -68,7 +59,7 @@ menu:
       link: /pt/portfolio
     curriculum:
       title: currículo
-      link: /pt/curriculo
+      link: /pt/curriculum
     ennecoisa:
       title: ennecoisa
       link: /pt/ennecoisa
@@ -108,7 +99,7 @@ portfolioTabbar:
   development:
     pt:
       name: "desenvolvimento"
-      url: "/desenvolvimento"
+      url: "/development"
     en:
       name: "development"
       url: "/development"
@@ -122,20 +113,18 @@ portfolioTabbar:
   illustration:
     pt:
       name: "ilustração"
-      url: "/ilustracao"
+      url: "/illustration"
     en:
       name: "illustration"
       url: "/illustration"
 
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Makefile
+  - dist
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - create-post.sh
