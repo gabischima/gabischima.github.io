@@ -21,7 +21,7 @@ $ make install
 $ make serve
 ```
 
-#### Build with `gabischima.github.IO` url
+#### Build with `gabischima.github.io` url
 
 ```shell
 $ make build

@@ -1,31 +1,31 @@
-{%- assign language = page.lang | default: site.lang | default: 'en' -%}
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
 <div class="gsm-header">
   <ul class="gsm-nav-list">
     <li class="gsm-nav-list__item{% if page.section == 'home' %} _active{% endif %}">
-      <a href="{{ site.menu[language].home.link | prepend: site.url }}">
+      <a href="{{ site.menu[lang].home.link | prepend: site.url }}">
         <span>
-          {{ site.menu[language].home.title }}
+          {{ site.menu[lang].home.title }}
         </span>
       </a>
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'portfolio' %} _active{% endif %}">
-      <a href="{{ site.menu[language].portfolio.link | prepend: site.url }}">
+      <a href="{{ site.menu[lang].portfolio.link | prepend: site.url }}">
         <span>
-          {{ site.menu[language].portfolio.title }}
+          {{ site.menu[lang].portfolio.title }}
         </span>
       </a>
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'curriculum' %} _active{% endif %}">
-      <a href="{{ site.menu[language].curriculum.link | prepend: site.url }}">
+      <a href="{{ site.menu[lang].curriculum.link | prepend: site.url }}">
         <span>
-          {{ site.menu[language].curriculum.title }}
+          {{ site.menu[lang].curriculum.title }}
         </span>
       </a>
     </li>
     <li class="gsm-nav-list__item{% if page.section == 'ennecoisa' %} _active{% endif %}">
-      <a href="{{ site.menu[language].ennecoisa.link | prepend: site.url }}">
+      <a href="{{ site.menu[lang].ennecoisa.link | prepend: site.url }}">
         <span>
-          {{ site.menu[language].ennecoisa.title }}
+          {{ site.menu[lang].ennecoisa.title }}
         </span>
       </a>
     </li>
