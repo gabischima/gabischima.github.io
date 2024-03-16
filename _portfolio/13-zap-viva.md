@@ -16,4 +16,3 @@ gallery:
     - 'zap-viva_4.png'
 tags: [development]
 ---
-// viva and zap print

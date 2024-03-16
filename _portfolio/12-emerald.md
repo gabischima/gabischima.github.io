@@ -6,7 +6,7 @@ pt:
 en:
   title: Emerald Design System
   subtitle: '<b>Acted as:</b> Front-end developer, designer and illustrator.'
-  description: Took part in designing the Design System, the Emerald Css library implementation and created icons and error pages' illustrations. We use <a href="https://patternlab.io" target="_blank" rel="noopener noreferrer">PatternLab</a> to develop with the Atomic Design principles as a base methodology. I was the primary developer for the Styleguide, made with Jekyll.
+  description: Took part in designing the Design System, the Emerald CSS library implementation and created icons and error pages' illustrations. We use <a href="https://patternlab.io" target="_blank" rel="noopener noreferrer">PatternLab</a> to develop with the Atomic Design principles as a base methodology. I was the primary developer for the Styleguide, made with Jekyll.
 gallery:
   direction: landscape
   images:
