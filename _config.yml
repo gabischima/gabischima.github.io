@@ -25,6 +25,8 @@ github_username:  gabischima
 
 version: '1.2.1'
 
+with_enne_app: false
+
 seo:
   pt:
     description:
