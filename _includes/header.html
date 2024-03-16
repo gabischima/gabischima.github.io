@@ -22,6 +22,7 @@
         </span>
       </a>
     </li>
+    {%- if site.with_enne_app -%}
     <li class="gsm-nav-list__item{% if page.section == 'ennecoisa' %} _active{% endif %}">
       <a href="{{ site.menu[lang].ennecoisa.link | prepend: site.url }}">
         <span>
@@ -29,5 +30,6 @@
         </span>
       </a>
     </li>
+    {%- endif -%}
   </ul>
 </div>

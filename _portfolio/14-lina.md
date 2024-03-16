@@ -24,4 +24,3 @@ gallery:
     - 'lina_12.png'
 tags: [development, design]
 ---
-// print from ios-views

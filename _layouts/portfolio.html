@@ -1,7 +1,7 @@
 ---
 layout: content
 ---
-{%- include tabbar.html -%}
+{% include tabbar.html -%}
 <ul class="gsm-portfolio">
   {%- for item in site.portfolio reversed -%}
   {% if page.tag == nil or item.tags contains page.tag %}
@@ -15,7 +15,17 @@ layout: content
     </p>
     {%- endif -%}
     <p class="gsm-portfolio__item__description">
-      {{ item[page.lang].description }}
+      {%- if site.with_enne_app -%}
+        {{ item[page.lang].description }}
+      {%- else -%}
+        {%- if item[page.lang].title contains "EnneThing"  -%}
+        {{ item[page.lang].description | strip_html }}
+        {%- elsif item[page.lang].title contains "EnneCoisa" -%}
+        {{ item[page.lang].description | strip_html }}
+        {%- else -%}
+        {{ item[page.lang].description }}
+        {%- endif -%}
+      {%- endif -%}
     </p>
     {%- if item.gallery -%}
     <div class="gsm-gallery">
