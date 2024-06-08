@@ -2,9 +2,9 @@
 pt:
   title: Experiências
   items:
-  - title: '<b>2023-Atual - </b>Desenvolvedora mobile no <a href="https://www.nubank.com.br/" target="_blank" rel="noopener noreferrer">Nubank</a>'
+  - title: '<b>2023-Atual - </b>Engenheira de Software no <a href="https://www.nubank.com.br/" target="_blank" rel="noopener noreferrer">Nubank</a>'
   - title: '<b>2021-2022 - </b>Desenvolvedora iOS na <a href="https://www.zapimoveis.com.br/" target="_blank" rel="noopener noreferrer">OLX - Zap+</a>'
-  - title: '<b>2018-2021 - </b>Desenvolvedora front-end na <a href="https://www.stone.co" target="_blank" rel="noopener noreferrer">Stone.co</a>'
+  - title: '<b>2018-2021 - </b>Desenvolvedora Front-end na <a href="https://www.stone.co" target="_blank" rel="noopener noreferrer">Stone.co</a>'
   - title: '<b>Dez/2018 - </b>Freelancer de desenvolvimento iOS na <a href="https://www.zeedog.com.br/zeenow" target="_blank" rel="noopener noreferrer">Zee.Dog</a>'
   - title: '<b>2016-2017 - </b>Sócia fundadora, desenvolvedora full-stack e designer da Fabbrica Sistemas'
   - title: '<b>2016 - </b>Ilustradora da <a href="https://revistapolen.com/" target="_blank" rel="noopener noreferrer">Revista Pólen</a>'
@@ -13,7 +13,7 @@ pt:
 en:
   title: Experiences
   items:
-  - title: '<b>2023-Current - </b>Mobile Developer at <a href="https://www.nubank.com.br/" target="_blank" rel="noopener noreferrer">Nubank</a>'
+  - title: '<b>2023-Current - </b>Software Engineer at <a href="https://www.nubank.com.br/" target="_blank" rel="noopener noreferrer">Nubank</a>'
   - title: '<b>2021-2022 - </b>iOS Developer at <a href="https://www.zapimoveis.com.br/" target="_blank" rel="noopener noreferrer">OLX - Zap+</a>'
   - title: '<b>2018-2021 - </b>Front-end developer at <a href="https://www.stone.co" target="_blank" rel="noopener noreferrer">Stone.co</a>'
   - title: '<b>Dez/2018 - </b>Freelancer iOS Software Engineer at <a href="https://www.zeedog.com.br/zeenow" target="_blank" rel="noopener noreferrer">Zee.Dog</a>'
