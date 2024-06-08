@@ -23,17 +23,9 @@ url: "https://gabischima.github.io"
 twitter_username: gabischima
 github_username:  gabischima
 
-version: '1.3.0'
+version: '1.3.2'
 
 with_enne_app: false
-
-seo:
-  pt:
-    description:
-      Portfolio de Gabriela Schirmer Mauricio. Desenvolvedora, designer e ilustradora.
-  en:
-    description: >- # this means to ignore newlines until "baseurl:"
-      Gabriela Schirmer Mauricio personal site. Brazilian developer, designer and illustrator.
 
 sass:
   style: compressed
@@ -68,18 +60,17 @@ menu:
 
 cookies:
   pt:
-    text: Esse site utiliza cookies para analytics e preservar configurações de ambiente (modo dark ou light). Nenhum dado pessoal ou identificável está sendo coletado.
-    agree: aceito
+    text: Esse site utiliza cookies para preservar configurações de ambiente (modo dark ou light). Nenhum dado pessoal ou identificável está sendo coletado.
+    agree: ok
   en:
-    text: This site uses cookies for analytics and save environment (light/dark) settings. No personal or personally identifiable data is being tracked.
-    agree: I agree
+    text: This site uses cookies to save environment (light/dark) settings. No personal or personally identifiable data is being tracked.
+    agree: ok
 
 # Build settings
 markdown: kramdown
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 collections:
   social_medias:
