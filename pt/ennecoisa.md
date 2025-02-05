@@ -3,8 +3,9 @@ title: Ennecoisa
 lang: pt
 section: ennecoisa
 
-layout: content
+layout: ennecoisa
 ---
+
 <div class="gsm-enne">
   <div class="gsm-enne__img">
     <img src="{{ "/assets/images/ennecoisa.png" | relative_url }}" alt="enne">
@@ -22,5 +23,3 @@ layout: content
     </div>
   </div>
 </div>
-
-<script src="{{ "/assets/js/listenApp.js " | prepend: site.baseurl }}"></script>

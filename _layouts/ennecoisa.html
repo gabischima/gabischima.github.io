@@ -1,0 +1,12 @@
+---
+layout: content
+---
+
+{%- if site.without_enne_app -%}
+  {%- include 404.html -%}
+{%- else -%}
+
+{{ content }}
+
+<script src="{{ "/assets/js/listenApp.js " | prepend: site.baseurl }}"></script>
+{%- endif -%}

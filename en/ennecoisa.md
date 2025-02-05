@@ -1,9 +1,9 @@
 ---
-title: Ennething
+title: Ennecoisa
 lang: en
 section: ennecoisa
 
-layout: content
+layout: ennecoisa
 ---
 <div class="gsm-enne">
   <div class="gsm-enne__img">
@@ -22,5 +22,3 @@ layout: content
     </div>
   </div>
 </div>
-
-<script src="{{ "/assets/js/listenApp.js " | prepend: site.baseurl }}"></script>
