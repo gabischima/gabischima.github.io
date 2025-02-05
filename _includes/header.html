@@ -1,35 +1,16 @@
 {%- assign lang = page.lang | default: site.lang | default: 'en' -%}
 <div class="gsm-header">
   <ul class="gsm-nav-list">
-    <li class="gsm-nav-list__item{% if page.section == 'home' %} _active{% endif %}">
-      <a href="{{ site.menu[lang].home.link | prepend: site.url }}">
+    {%- for item in site.menu[lang] -%}
+    {%- unless item[0] == "ennecoisa" and site.without_enne_app -%}
+    <li class="gsm-nav-list__item{% if page.section == item[0] %} _active{% endif %}">
+      <a href="{{ item[1].link | prepend: site.url }}">
         <span>
-          {{ site.menu[lang].home.title }}
+          {{ item[1].title }}
         </span>
       </a>
     </li>
-    <li class="gsm-nav-list__item{% if page.section == 'portfolio' %} _active{% endif %}">
-      <a href="{{ site.menu[lang].portfolio.link | prepend: site.url }}">
-        <span>
-          {{ site.menu[lang].portfolio.title }}
-        </span>
-      </a>
-    </li>
-    <li class="gsm-nav-list__item{% if page.section == 'curriculum' %} _active{% endif %}">
-      <a href="{{ site.menu[lang].curriculum.link | prepend: site.url }}">
-        <span>
-          {{ site.menu[lang].curriculum.title }}
-        </span>
-      </a>
-    </li>
-    {%- if site.with_enne_app -%}
-    <li class="gsm-nav-list__item{% if page.section == 'ennecoisa' %} _active{% endif %}">
-      <a href="{{ site.menu[lang].ennecoisa.link | prepend: site.url }}">
-        <span>
-          {{ site.menu[lang].ennecoisa.title }}
-        </span>
-      </a>
-    </li>
-    {%- endif -%}
+    {%- endunless -%}
+    {%- endfor -%}
   </ul>
 </div>

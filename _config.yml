@@ -23,9 +23,17 @@ url: "https://gabischima.github.io"
 twitter_username: gabischima
 github_username:  gabischima
 
-version: '1.3.2'
+version: '1.4.0'
 
-with_enne_app: false
+without_enne_app: true
+
+404:
+  en:
+    title: "Page not found :("
+    description: "The requested page could not be found."
+  pt:
+    title: "Página não encontrada :("
+    description: "A página que você procura não existe."
 
 sass:
   style: compressed
