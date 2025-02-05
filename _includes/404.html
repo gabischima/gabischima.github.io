@@ -1,0 +1,5 @@
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+<div class="gsm-not-found">
+  <h3>{{ site.404[lang].title }}</h3>
+  <p>{{site.404[lang].description}}</p>
+</div>

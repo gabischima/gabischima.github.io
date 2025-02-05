@@ -15,17 +15,15 @@ layout: content
     </p>
     {%- endif -%}
     <p class="gsm-portfolio__item__description">
-      {%- if site.with_enne_app -%}
+      {%- unless site.without_enne_app -%}
         {{ item[page.lang].description }}
       {%- else -%}
-        {%- if item[page.lang].title contains "EnneThing"  -%}
-        {{ item[page.lang].description | strip_html }}
-        {%- elsif item[page.lang].title contains "EnneCoisa" -%}
+        {%- if item[page.lang].title contains "EnneThing" or item[page.lang].title contains "EnneCoisa" -%}
         {{ item[page.lang].description | strip_html }}
         {%- else -%}
         {{ item[page.lang].description }}
         {%- endif -%}
-      {%- endif -%}
+      {%- endunless -%}
     </p>
     {%- if item.gallery -%}
     <div class="gsm-gallery">
