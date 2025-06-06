@@ -63,12 +63,19 @@
   font-weight: bold;
 }
 
-@media (hover:none), (hover:on-demand) {
+@media (hover:none),
+(hover:on-demand) {
+  .gsm-tabbar__item:hover .gsm-tabbar__link,
+  .gsm-tabbar__item:active .gsm-tabbar__link,
+  .gsm-tabbar__item:focus .gsm-tabbar__link {
+    font-weight: semibold;
+  }
+
   .gsm-tabbar__item:hover .gsm-tabbar__link {
     color: var(--nav-list--active--color);
   }
+
   .gsm-tabbar__item .gsm-tabbar__link._active {
     color: var(--nav-list--active--color);
   }
 }
-
