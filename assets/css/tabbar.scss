@@ -60,6 +60,8 @@
 .gsm-tabbar__item:focus .gsm-tabbar__link,
 .gsm-tabbar__link._active {
   color: var(--nav-list--active--color);
+}
+.gsm-tabbar__link._active {
   font-weight: bold;
 }
 
@@ -67,8 +69,8 @@
   .gsm-tabbar__item:hover .gsm-tabbar__link {
     color: var(--nav-list--active--color);
   }
+
   .gsm-tabbar__item .gsm-tabbar__link._active {
     color: var(--nav-list--active--color);
   }
 }
-
