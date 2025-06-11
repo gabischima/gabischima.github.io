@@ -7,6 +7,9 @@
   padding: 16px;
   font-size: 14px;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .gsm-cookies._show {
@@ -39,7 +42,7 @@
 
 @media screen and (min-width: 960px) {
   .gsm-cookies {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     bottom: auto;
     top: 16px;
