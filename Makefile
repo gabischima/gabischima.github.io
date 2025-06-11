@@ -6,7 +6,7 @@ update:
 	bundle update --bundler
 
 serve:
-	bundle exec jekyll serve --host=0.0.0.0
+	bundle exec jekyll serve
 
 build:
 	bundle exec jekyll build
