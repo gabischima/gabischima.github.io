@@ -8,6 +8,13 @@
   overflow-x: auto;
 }
 
+.gsm-gallery {
+  margin-bottom: 16px;
+}
+.gsm-gallery:last-child {
+  margin-bottom: 0px;
+}
+
 .gsm-gallery::-webkit-scrollbar-track {
   background-color: transparent;
   border-radius: 4px;
