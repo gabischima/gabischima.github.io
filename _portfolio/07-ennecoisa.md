@@ -2,11 +2,11 @@
 pt:
   title: Ennecoisa app
   subtitle: '<b>Atuação:</b> ilustrações, design e desenvolvimento (Swift).'
-  description: '<a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">Aplicativo de Realidade Aumentada</a> para iOS. Monte o seu Enne, com os desenhos pré-definidos ou ative a criatividade desenhando no canvas. É possível salvar o desenho no formato do dispositivo, ou visualizar o desenho em realidade aumentada no desenho de referência.'
+  description: '<a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">Aplicativo de Realidade Aumentada</a> para iOS. Monte o seu Enne, com os desenhos pré-definidos ou ative a criatividade desenhando no canvas. É possível salvar o desenho no formato do dispositivo e visualizar o desenho em realidade aumentada no desenho de referência.'
 en:
   title: Ennecoisa app
   subtitle: '<b>Acted as:</b>  illustrator, designer and developer (Swift).'
-  description: '<a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">Augmented Reality app</a> for iOS. Build your own Enne with pre-defined designs or work your creativity drawing on the canvas. Save your drawing with device resolution, or see in augmented reality with the base drawing.'
+  description: '<a href="https://apps.apple.com/br/app/ennecoisa-app/id1497722984" target="_blank" rel="noopener noreferrer">Augmented Reality app</a> for iOS. Build your own Enne with pre-defined designs or work your creativity drawing on the canvas. Save your drawing with device resolution and see in augmented reality with the base drawing.'
 galleries:
   - direction: portrait
     images:
