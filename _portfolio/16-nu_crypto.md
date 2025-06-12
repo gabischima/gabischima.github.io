@@ -1,6 +1,6 @@
 ---
 pt:
-  title: NuCrypto
+  title: NuCripto
   subtitle: '<b>Atuação:</b> desenvolvedora.'
   description: 'Participei da implementação de novas features, refatoração de código e solução de bugs. Desenvolvimento em <a href="https://building.nubank.com/pt-br/backend-driven-content-por-que-desenvolvemos-um-framework-de-interface-orientada-pelo-servidor-no-nubank/" target="_blank" rel="noopener noreferrer">BDC</a> (Backend Driven Content), Clojure framework baseado em Flutter'
 en:
