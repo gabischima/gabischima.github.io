@@ -9,7 +9,7 @@ pt:
   - title: 'UX/UI Design'
   - title: 'Desenho e ilustração'
   - title: 'Animação'
-  - title: 'Design e animação de personagem'
+  - title: 'Design de personagem'
 en:
   title: Interests
   items:
@@ -20,5 +20,5 @@ en:
   - title: 'UX/UI Design'
   - title: 'Drawing and illustration'
   - title: 'Animation'
-  - title: 'Character design and animation'
+  - title: 'Character design'
 ---
