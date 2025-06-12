@@ -1,10 +1,10 @@
 ---
 pt:
-  title: EnneCoisa v1
+  title: Ennecoisa v1
   subtitle: '<b>Atuação:</b> ilustrações, design e desenvolvimento (Swift/Objective-C).'
   description: 'Primeira versão do aplicativo iOS de Realidade Aumentada para cartão de visita e tatuagem pessoal.'
 en:
-  title: EnneThing v1
+  title: Ennething v1
   subtitle: '<b>Acted as:</b>  illustrator, designer and developer (Swift/Objective-C).'
   description: 'First version of the iOS Augmented Reality app for my business card and tattoo.'
 gallery:
