@@ -21,7 +21,7 @@ layout: content
       {%- unless site.without_enne_app -%}
       {{ item[page.lang].description }}
       {%- else -%}
-      {%- if item[page.lang].title contains "Enneything" or item[page.lang].title contains "Ennecoisa" -%}
+      {%- if item[page.lang].title contains "Ennething" or item[page.lang].title contains "Ennecoisa" -%}
       {{ item[page.lang].description | strip_html }}
       {%- else -%}
       {{ item[page.lang].description }}
