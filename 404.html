@@ -1,8 +1,12 @@
 ---
 title: 404
-layout: content
-
-hide-language: true
 ---
 
-{%- include 404.html -%}
+<script>
+var userLang = navigator.language || navigator.userLanguage;
+if (userLang === 'pt-BR') {
+  window.location = '{{ "/pt/404" }}'
+} else {
+  window.location = '{{ "/en/404" }}'
+}
+</script>
