@@ -1,7 +1,9 @@
 ---
 layout: content
 ---
+<div class="gsm-headline">
 {% include tabbar.html -%}
+</div>
 <ul class="gsm-portfolio">
   {%- for item in site.portfolio reversed -%}
   {% if page.tag == nil or item.tags contains page.tag %}

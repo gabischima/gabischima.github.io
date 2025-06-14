@@ -1,4 +1,5 @@
 {%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- unless page.hide-language -%}
 <p class="gsm-language-select">
   {%- if lang == 'pt' -%}
   change to <a class="gsm-link" href="{{ page.url | prepend: site.url | replace: '/pt-', '/en-' | replace: '/pt/', '/en/' }}">english</a>
@@ -6,3 +7,4 @@
   mudar para <a class="gsm-link" href="{{ page.url | prepend: site.url | replace: '/en-', '/pt-' | replace: '/en/', '/pt/' }}">português</a>
   {%- endif -%}
 </p>
+{%- endunless -%}
