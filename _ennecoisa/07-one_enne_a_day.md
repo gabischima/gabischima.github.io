@@ -1,10 +1,10 @@
 ---
 pt:
   title: 'Um Enne por dia'
-  description: ""
+  description: "Em 2022, durante a pandemia — buscando formas de cuidar da mente e continuar criando — desenvolvi um baralho de cartas temáticas para inspirar desenhos diários do Enne."
 en:
   title: 'One Enne a day'
-  description: "In 2022, at the pandemic, searching for ways to heal my mind and keep creating, I designed cards with themes to draw ennes daily."
+  description: "In 2022, during the pandemic — searching for ways to heal my mind and stay creative — I designed a deck of themed cards to inspire daily Enne drawings."
 gallery:
   direction: portrait
   images:

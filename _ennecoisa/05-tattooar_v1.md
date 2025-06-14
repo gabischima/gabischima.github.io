@@ -1,10 +1,10 @@
 ---
 pt:
   title: 'TattooAR v1'
-  description: ''
+  description: 'No mesmo ano, também reconstruí o TattooAR para iOS — desenhando uma interface completamente nova, adicionando mais ilustrações e criando uma nova forma de montar personagens personalizados.'
 en:
   title: 'TattooAR v1'
-  description: 'In 2016, I also re-build TattooAR app for iOS, design a whole new UI, adding more drawings and a new build interaction.'
+  description: 'I also rebuilt the TattooAR app for iOS — designing an entirely new interface, adding more illustrations, and introducing a new way to build custom characters'
 gallery:
   direction: portrait
   images:

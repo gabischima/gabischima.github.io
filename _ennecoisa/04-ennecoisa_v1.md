@@ -1,10 +1,10 @@
 ---
 pt:
   title: 'Ennecoisa v1'
-  description: ''
+  description: 'Em 2016, após minha experiência na Apple Developer Academy, uni os conceitos do app da WWDC e do TattooAR. O novo app para iOS trazia várias ilustrações do Enne, diferentes tons de pele, interação de embaralhar ao chacoalhar e realidade aumentada tanto para meu cartão de visita quanto para minha tatuagem.'
 en:
   title: 'Ennecoisa v1'
-  description: 'With the Apple Developer Academy experience, in 2016 I merged the concept from the WWDC app and TattooAR. The new iOS app had multiple Enne drawings, different skin colors, shake to shuffle interaction and Augmented Reality for my business card and tattoo.'
+  description: 'In 2016, after my experience at the Apple Developer Academy, I merged the concepts from the WWDC app and TattooAR. The new iOS app featured multiple Enne illustrations, different skin tones, shake-to-shuffle interaction, and augmented reality for both my business card and tattoo.'
 gallery:
   direction: portrait
   images:
