@@ -16,5 +16,4 @@ gallery:
   - 'ennecoisa_1_05.jpg'
   - 'ennecoisa_1_06.jpg'
   - 'ennecoisa_1_07.jpg'
-tags: [illustration]
 ---

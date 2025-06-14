@@ -20,5 +20,4 @@ gallery:
   - 'WWDC15_10.png'
   - 'WWDC15_11.png'
   - 'WWDC15_12.png'
-tags: [illustration]
 ---

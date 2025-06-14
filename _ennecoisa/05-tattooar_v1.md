@@ -19,5 +19,4 @@ gallery:
   - 'tattooar_08.jpg'
   - 'tattooar_09.jpg'
   - 'tattooar_10.jpg'
-tags: [illustration]
 ---
