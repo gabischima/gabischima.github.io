@@ -2,6 +2,8 @@
 layout: content
 ---
 
+{{ content }}
+
 <ul class="gsm-portfolio">
   {%- for item in site.ennecoisa -%}
   <li class="gsm-portfolio__item">
@@ -41,19 +43,22 @@ layout: content
     </div>
     {%- else -%}
     {%- if item.galleries -%}
-    {%- for gallery in item.galleries -%}
-    <div class="gsm-gallery">
-      <ul class="gsm-gallery__list _direction_{{ gallery.direction }}">
-        {%- for image in gallery.images -%}
-        {%- capture path -%}/assets/images/portfolio/{{ image }}{%- endcapture -%}
-        <li class="gsm-gallery__list__item">
-          <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}" alt="{{ item[page.lang].title }} {{ forloop.index }}">
-        </li>
-        {%- endfor -%}
-      </ul>
-    </div>
-    {%- endfor -%}
+      {%- for gallery in item.galleries -%}
+        <div class="gsm-gallery">
+          <ul class="gsm-gallery__list _direction_{{ gallery.direction }}">
+            {%- for image in gallery.images -%}
+              {%- capture path -%}/assets/images/portfolio/{{ image }}{%- endcapture -%}
+              <li class="gsm-gallery__list__item">
+                <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}" alt="{{ item[page.lang].title }} {{ forloop.index }}">
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      {%- endfor -%}
     {%- endif -%}
+    {%- endif -%}
+    {%- if item.content -%}
+      {{ item.content }}
     {%- endif -%}
   </li>
   {%- endfor -%}
