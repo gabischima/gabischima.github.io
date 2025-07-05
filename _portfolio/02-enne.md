@@ -13,9 +13,9 @@ gallery:
   - 'enne_02.jpg'
   - 'enne_03.jpg'
   - 'enne_04.jpg'
-  - 'enne_05.JPG'
-  - 'enne_06.JPG'
-  - 'enne_07.JPG'
-  - 'enne_08.JPG'
+  - 'enne_05.jpg'
+  - 'enne_06.jpg'
+  - 'enne_07.jpg'
+  - 'enne_08.jpg'
 tags: [illustration]
 ---
