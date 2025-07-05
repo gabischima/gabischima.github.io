@@ -1,10 +1,10 @@
 ---
 pt:
   title: 'Enne - tatuagem'
-  description: 'Ennecoisa surgiu como um conceito de tatuagem mutável - um personagem em branco, feito para ser transformado. O que começou em 2012 como um projeto criativo pessoal, evoluiu para uma série de experimentos em realidade aumentada, misturando design, código e autoexpressão.'
+  description: 'Em 2012, tatuei o Enne: personagem que surgiu a partir do conceito de tatuagem mutável, um bonequinho em branco feito para ser transformado. Mais do que uma tatuagem, ele se tornou um exercício de criatividade e um símbolo de expressão pessoal.'
 en:
   title: 'Enne tattoo'
-  description: 'Ennecoisa began as a concept for a mutable tattoo - a blank character designed for interaction. What started in 2012 as a personal creative project evolved into a series of augmented reality experiments, blending design, code, and self-expression.'
+  description: 'In 2012, I tattooed Enne, a blank character designed to be transformed through drawing. It became more than just a tattoo: it transformed into a canvas for creativity and a symbol of self-expression.'
 gallery:
   direction: portrait
   images:

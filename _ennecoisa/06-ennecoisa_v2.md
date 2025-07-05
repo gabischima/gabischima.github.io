@@ -1,10 +1,10 @@
 ---
 pt:
   title: 'Ennecoisa v2'
-  description: 'Em 2019, com o lançamento do ARKit (framework nativo de realidade aumentada da Apple), recriei o app Ennecoisa do zero. Além de montar seu próprio Enne e vê-lo em AR, o app passou a permitir que os usuários desenhem diretamente no personagem, usando o dedo ou o Apple Pencil.'
+  description: 'Em 2019, com o lançamento do ARKit (framework nativo de Realidade Aumentada da Apple), recriei o app Ennecoisa do zero. Além de montar seu próprio Enne e vê-lo em AR, o app passou a permitir que os usuários desenhem diretamente no personagem, usando o dedo no iPhone e a Apple Pencil no iPad.'
 en:
   title: 'Ennecoisa v2'
-  description: "In 2019, after the release of ARKit (Apple’s native augmented reality framework), I re-created the Ennecoisa app from scratch. Along with building your own Enne and seeing it in AR, the app now allows users to draw directly on the character using a finger on iPhone or Apple Pencil on iPad."
+  description: "In 2019, after the release of ARKit (Apple's native augmented reality framework), I recreated the Ennecoisa app from scratch. Along with allowing users to build their own Enne and see it in AR, the new app lets them draw directly on the character using finger on the iPhone or Apple Pencil on the iPad."
 galleries:
   - direction: portrait
     images:

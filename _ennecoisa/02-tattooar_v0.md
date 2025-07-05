@@ -1,10 +1,10 @@
 ---
 pt:
   title: 'TattooAR v0'
-  description: 'Em 2013, desenvolvi o TattooAR como meu projeto de graduação - um app para Android criado com Metaio, numa época em que nem existiam bibliotecas nativas de realidade aumentada. Em vez de usar minha própria tatuagem, criei novos personagens em branco e os transformei em tatuagens temporárias, permitindo que outras pessoas também pudessem usá-los e ver ilustrações personalizadas ganhando vida na própria pele através da AR.'
+  description: "Para meu projeto final de graduação, em 2013, desenvolvi o TattooAR: um app de Realidade Aumentada para Android. Em vez de usar minha própria tatuagem, criei novos contornos usados como tatuagens temporárias, permitindo que outras pessoas interagissem e vissem as ilustrações ganharem vida na própria pele."
 en:
   title: 'TattooAR v0'
-  description: 'In 2013, I developed TattooAR as my undergrad project - an Android app built with Metaio, before native AR libraries even existed. Instead of using my own tattoo, I created new blank characters and turned them into temporary tattoos, allowing others to wear them and watch custom illustrations come to life on their skin through AR.'
+  description: "In 2013, I developed TattooAR for my undergraduate final project: an Augmented Reality app for Android, built with Metaio. Instead of using my own tattoo, I created new blank characters as temporary tattoos, allowing others wear them and see illustrations come to life on their skin."
 gallery:
   direction: portrait
   images:
