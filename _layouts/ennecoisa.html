@@ -2,11 +2,66 @@
 layout: content
 ---
 
-{%- if site.without_enne_app -%}
-  {%- include 404.html -%}
-{%- else -%}
-
 {{ content }}
 
-<script src="{{ "/assets/js/listenApp.js " | prepend: site.baseurl }}"></script>
-{%- endif -%}
+<ul class="gsm-portfolio">
+  {%- for item in site.ennecoisa -%}
+  <li class="gsm-portfolio__item">
+    {%- if item[page.lang].title -%}
+    <p class="gsm-portfolio__item__title">
+      {{ item[page.lang].title }}
+    </p>
+    {%- endif -%}
+    {%- if item[page.lang].subtitle -%}
+    <p class="gsm-portfolio__item__subtitle">
+      {{ item[page.lang].subtitle }}
+    </p>
+    {%- endif -%}
+    {%- if item[page.lang].description -%}
+    <p class="gsm-portfolio__item__description">
+      {%- unless site.without_enne_app -%}
+      {{ item[page.lang].description }}
+      {%- else -%}
+      {%- if item[page.lang].title contains "Ennething" or item[page.lang].title contains "Ennecoisa" -%}
+      {{ item[page.lang].description | strip_html }}
+      {%- else -%}
+      {{ item[page.lang].description }}
+      {%- endif -%}
+      {%- endunless -%}
+    </p>
+    {%- endif -%}
+    {%- if item.gallery -%}
+    <div class="gsm-gallery">
+      <ul class="gsm-gallery__list _direction_{{ item.gallery.direction }}">
+        {%- for image in item.gallery.images -%}
+        {%- capture path -%}/assets/images/portfolio/{{ image }}{%- endcapture -%}
+        <li class="gsm-gallery__list__item">
+          <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}" alt="{{ item[page.lang].title }} {{ forloop.index }}">
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- else -%}
+    {%- if item.galleries -%}
+      {%- for gallery in item.galleries -%}
+        <div class="gsm-gallery">
+          <ul class="gsm-gallery__list _direction_{{ gallery.direction }}">
+            {%- for image in gallery.images -%}
+              {%- capture path -%}/assets/images/portfolio/{{ image }}{%- endcapture -%}
+              <li class="gsm-gallery__list__item">
+                <img src="{{ path | relative_url }}" gsm-modal-image="{{ path }}" alt="{{ item[page.lang].title }} {{ forloop.index }}">
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      {%- endfor -%}
+    {%- endif -%}
+    {%- endif -%}
+    {%- if item.content -%}
+      {{ item.content }}
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+
+<script src="{{ "/assets/js/external/gsm-modal.min.js" | relative_url }}"></script>

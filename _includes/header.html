@@ -2,7 +2,6 @@
 <div class="gsm-header">
   <ul class="gsm-nav-list">
     {%- for item in site.menu[lang] -%}
-    {%- unless item[0] == "ennecoisa" and site.without_enne_app -%}
     <li class="gsm-nav-list__item{% if page.section == item[0] %} _active{% endif %}">
       <a href="{{ item[1].link | prepend: site.url }}">
         <span>
@@ -10,7 +9,6 @@
         </span>
       </a>
     </li>
-    {%- endunless -%}
     {%- endfor -%}
   </ul>
 </div>
