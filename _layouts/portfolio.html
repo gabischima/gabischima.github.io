@@ -1,7 +1,9 @@
 ---
 layout: content
 ---
+<div class="gsm-headline">
 {% include tabbar.html -%}
+</div>
 <ul class="gsm-portfolio">
   {%- for item in site.portfolio reversed -%}
   {% if page.tag == nil or item.tags contains page.tag %}
@@ -21,7 +23,7 @@ layout: content
       {%- unless site.without_enne_app -%}
       {{ item[page.lang].description }}
       {%- else -%}
-      {%- if item[page.lang].title contains "Enneything" or item[page.lang].title contains "Ennecoisa" -%}
+      {%- if item[page.lang].title contains "Ennething" or item[page.lang].title contains "Ennecoisa" -%}
       {{ item[page.lang].description | strip_html }}
       {%- else -%}
       {{ item[page.lang].description }}

@@ -29,6 +29,7 @@ h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: bold;
   font-size: 16px;
+  margin-bottom: 4px;
 }
 
 b {
@@ -50,6 +51,15 @@ b {
 .gsm-link:focus {
   color: var(--link--hover--color);
   background-position: 0 100%;
+}
+
+.gsm-spacer {
+  margin-bottom: 16px;
+}
+
+.gsm-headline {
+  font-size: 14px;
+  margin: 20px 0 8px 0;
 }
 
 /* HEADER */
@@ -105,14 +115,6 @@ b {
   padding: 32px 0 100px;
 }
 
-/*
-**  404
-*/
-
-.gsm-not-found h3 {
-  margin-bottom: 8px;
-}
-
 @media screen and (min-width: 768px) {
   body {
     max-width: 960px;
@@ -130,7 +132,7 @@ b {
   }
 
   .gsm-content {
-    padding-top: 48px;
+    padding-top: 40px;
   }
 
   .gsm-header {
