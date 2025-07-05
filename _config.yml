@@ -87,6 +87,8 @@ collections:
     output: false
   portfolio:
     output: false
+  ennecoisa:
+    output: false
 
 
 portfolioTabbar:
